@@ -1,0 +1,46 @@
+// Sketch Plugin: AEFlowchart - Process (ctrl shift p)
+// Source: github.com/tadija/AEFlowchart
+// Version: 1.0
+
+#import 'AEFlowchart.js'
+
+/*  call AEFlowchart main function with custom name and shape function  */
+createStep("Process", processShape);
+
+/*  draw process rectangle shape for given label  */
+function processShape(label)
+{
+  // create shape
+  var parentGroup = [label parentGroup];
+  var shape = [[MSRectangleShape alloc] init];
+  var shapeGroup = shape.embedInShapeGroup();
+  [parentGroup addLayers:[shapeGroup]];
+
+  // set frame
+  var labelFrame = [label frame];
+  var shapeFrame = [shape frame];
+  [shapeFrame setWidth:[labelFrame width] + 40];
+  [shapeFrame setHeight:[labelFrame height] + 30];
+  [shapeFrame setMidX:[labelFrame midX]];
+  [shapeFrame setMidY:[labelFrame midY]];
+  [shapeGroup setFrame: shapeFrame];
+
+  // set style
+  var shapeStyle = [shapeGroup style];
+  var fills = [shapeStyle fills];
+  if([fills count] <= 0) [fills addNewStylePart];
+  var fill = [shapeStyle fill];
+
+  // add gradient fill
+  [fill setFillType: 0];
+  fill.color = MSColor.colorWithSVGString("#F1F1EF");
+  // var gradient = [shapeFill gradient];
+  // [gradient setColor:[MSColor colorWithSVGString:"#1AD6FD"] atIndex:0];
+  // [gradient setColor:[MSColor colorWithSVGString:"#1D62F0"] atIndex:1];
+
+  // add default inner shadow
+  // var innerShadows = [shapeStyle innerShadows];
+  // if([innerShadows count] <= 0) [innerShadows addNewStylePart];
+
+  return shapeGroup;
+}
