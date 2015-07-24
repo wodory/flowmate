@@ -6,7 +6,11 @@ Just text the label first,
 
 ![before](doc/before.png)
 
-And press "Ctrl+Shift+P" or "Ctrl+Shift+D" and so on.
+And press magic keys like 
+* Ctrl+Shift+P : Process 
+* Ctrl+Shift+D : Decision
+* Ctrl+Shift+C : Connect
+* Ctrl+Shift+S : Start/End
 
 ![after](doc/after.png)
 
