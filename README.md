@@ -2,12 +2,12 @@
 
 Don't draw a shpae and type text. Just write your story, process or task only text first and make shpaes with the text. It's just speedy and super simple. 
 
-## Step 1
+### Step 1
 Just text the label first, 
 
 ![before](doc/before.png)
 
-## Step 2
+### Step 2
 And press magic keys like 
 * Ctrl+Shift+P : Process 
 * Ctrl+Shift+D : Decision
@@ -16,6 +16,10 @@ And press magic keys like
 * Ctrl+Shift+C : Connect
 
 ![after](doc/after.png)
+
+### Option
+
+You can use your own options to modify lib/options.js
 
 # To do
 
