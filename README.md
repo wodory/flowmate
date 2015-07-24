@@ -1,11 +1,13 @@
 # Flowmate
 
-Don't draw a shpae and type text. Just tell your process only text and make shpae with the text. It's just speedy and super simple. 
+Don't draw a shpae and type text. Just write your story, process or task only text first and make shpaes with the text. It's just speedy and super simple. 
 
+# Step 1
 Just text the label first, 
 
 ![before](doc/before.png)
 
+# Step 2
 And press magic keys like 
 * Ctrl+Shift+P : Process 
 * Ctrl+Shift+D : Decision
