@@ -1,3 +1,5 @@
+// Reference (ctrl shift R)
+
 // Process (ctrl shift p)
 
 @import 'lib/flowmate.js'
@@ -5,4 +7,4 @@
 @import 'lib/util.js'
 
 com.flowmate.init();
-com.flowmate.createSymbol("Process");
+com.flowmate.createSymbol("Reference");
