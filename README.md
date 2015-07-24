@@ -25,11 +25,14 @@ And press magic keys like
 
 # Special Thanks 
 
-## @tadija (https://github.com/tadija/AEFlowchart)
+###### tadija (https://github.com/tadija/AEFlowchart)
+
 The flowmate is inspired by AEFlowchart. The concept is great and I use some functions. Thanks tajiaj!
 
-## Dan brown 
-The style of chart is based on [Communicating Design 2nd edition]((http://www.amazon.com/Communicating-Design-Developing-Documentation-Planning/dp/0321712463) by Dan Brown. His book is one of the best UX book in my opinion even he doesn't know me ;-) 
+###### Dan brown
 
-## @utmo and @marcosvidal
+The style of chart is based on [Communicating Design 2nd edition](http://www.amazon.com/Communicating-Design-Developing-Documentation-Planning/dp/0321712463) by Dan Brown. His book is one of the best UX book in my opinion even he doesn't know me ;-) 
+
+###### utmo(https://github.com/utom/) and marcosvidal(https://github.com/marcosvidal)
+
 When I stared to develop my own plugin, there code is great examples. 
