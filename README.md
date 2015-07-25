@@ -1,6 +1,6 @@
 # Flowmate
 
-Don't draw a shpae and type text. Just write your story, process or task only text first and make shpaes with the text. It's just speedy and super simple. 
+Don't draw a shpae and type text. Write your story, process or task first, then make shpaes with the text automatically. It's just speedy and super simple. 
 
 ### Step 1
 Just text the label first, 
