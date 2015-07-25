@@ -4,7 +4,9 @@ Don't draw a shpae and type text. Just write your story, process or task only te
 
 ### Step 1
 Just text the label first, 
+
 ![before](doc/before.png)
+
 ### Step 2
 And press magic keys like 
 * Ctrl+Shift+P : Process 
@@ -12,7 +14,9 @@ And press magic keys like
 * Ctrl+Shift+L : Label
 * Ctrl+Shift+R : Reference
 * Ctrl+Shift+C : Connect
+
 ![after](doc/after.png)
+
 ### Option
 
 You can use your own options to modify lib/options.js
