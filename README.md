@@ -3,7 +3,6 @@
 Don't draw a shpae and type text. Write your story, process or task first, then make shpaes with the text automatically. It's just speedy and super simple. 
 
 ## Installing Plugin
-2. Copy the contents to the plugin folder (Open up Sketch, and go to `Plugins` › `Reveal Plugins Folder…` to open it.)
 
 1. [Download the flowmate Zip file](https://github.com/wodory/flowmate/archive/master.zip) and extract it. 
 2. Copy the folder to the plugin folder (Open up Sketch, and go to `Plugins` › `Reveal Plugins Folder…` to open it.)
