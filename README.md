@@ -2,13 +2,16 @@
 
 Don't draw a shpae and type text. Write your story, process or task first, then make shpaes with the text automatically. It's just speedy and super simple. 
 
-### How to Install
+## How to Install
 
-1. Download the flowmate.zip and extract it. 
-2. Run the sketch 3 
-3. Select the menu, [Plugins >Reveal Plugins Folder…]
-4. Copy the folder you extract zip file at step 1 to the revealed directory.
-5. The 'flowmate' plugin is appeared the [Plugins] menu.
+## Installing Plugins
+2. Copy the contents to the plugin folder (Open up Sketch, and go to `Plugins` › `Reveal Plugins Folder…` to open it.)
+
+1. [Download the flowmate Zip file](https://github.com/wodory/flowmate/archive/master.zip) and extract it. 
+2. Copy the folder to the plugin folder (Open up Sketch, and go to `Plugins` › `Reveal Plugins Folder…` to open it.)
+3. The 'flowmate' plugin is appeared in the [Plugins] menu.
+
+## How to Use 
 
 ### Step 1
 Just text the label first, 
@@ -29,14 +32,14 @@ And press magic keys like
 
 You can use your own options to modify lib/options.js
 
-### To do
+## To do
 
 - [ ] Group and connect to/from group
 - [ ] Smart align - to align Decision and other symbol
 - [ ] Smart connect - really hard :-(
 - [ ] Option dialog 
 
-### Special Thanks 
+## Special Thanks 
 
 ##### tadija (https://github.com/tadija/AEFlowchart)
 
