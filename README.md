@@ -2,6 +2,14 @@
 
 Don't draw a shpae and type text. Write your story, process or task first, then make shpaes with the text automatically. It's just speedy and super simple. 
 
+### How to Install
+
+1. Download the flowmate.zip and extract it. 
+2. Run the sketch 3 
+3. Select the menu, [Plugins >Reveal Plugins Folder…]
+4. Copy the folder you extract zip file at step 1 to the revealed directory.
+5. The 'flowmate' plugin is appeared the [Plugins] menu.
+
 ### Step 1
 Just text the label first, 
 
