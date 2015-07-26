@@ -42,9 +42,9 @@ You can use your own options to modify lib/options.js
 
 The flowmate is inspired by AEFlowchart. The concept is great and I use some functions. Thanks tajiaj!
 
-##### Dan brown
+##### [Dan brown - Communicating Design 2nd edition](http://www.amazon.com/Communicating-Design-Developing-Documentation-Planning/dp/0321712463)
 
-The style of chart is based on [Communicating Design 2nd edition](http://www.amazon.com/Communicating-Design-Developing-Documentation-Planning/dp/0321712463) by Dan Brown. His book is one of the best UX book in my opinion even he doesn't know me ;-) 
+The style of flowchart, espacially the decision symbol, is based on [Communicating Design 2nd edition](http://www.amazon.com/Communicating-Design-Developing-Documentation-Planning/dp/0321712463) by Dan Brown. His book is one of the best UX book in my opinion even he doesn't know me ;-) 
 
 ##### [utmo](https://github.com/utom/) and [marcosvidal](https://github.com/marcosvidal)
 
