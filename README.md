@@ -29,14 +29,14 @@ And press magic keys like
 
 You can use your own options to modify lib/options.js
 
-# To do
+### To do
 
 - [ ] Group and connect to/from group
 - [ ] Smart align - to align Decision and other symbol
 - [ ] Smart connect - really hard :-(
 - [ ] Option dialog 
 
-# Special Thanks 
+### Special Thanks 
 
 ##### tadija (https://github.com/tadija/AEFlowchart)
 
