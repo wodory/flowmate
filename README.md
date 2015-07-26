@@ -6,7 +6,7 @@ Don't draw a shpae and type text. Write your story, process or task first, then 
 
 1. [Download the flowmate Zip file](https://github.com/wodory/flowmate/archive/master.zip) and extract it. 
 2. Copy the folder to the plugin folder (Open up Sketch, and go to `Plugins` › `Reveal Plugins Folder…` to open it.)
-3. The 'flowmate' plugin is appeared in the [Plugins] menu.
+3. The 'flowmate' plugin is appeared in the `Plugins` menu.
 
 ## How to Use 
 
