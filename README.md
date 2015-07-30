@@ -41,7 +41,7 @@ Modify `lib/options.js` if you wanna use your own options like shape/border colo
 
 #### [tadija - AEFlowcahrt](https://github.com/tadija/AEFlowchart)
 
-The flowmate is inspired by AEFlowchart. The concept is great and I use some functions. Thanks tajiaj!
+The flowmate is inspired by AEFlowchart. The concept is great and I use some codes he made. Thanks tadija!
 
 #### [Dan brown - Communicating Design 2nd edition](http://www.amazon.com/Communicating-Design-Developing-Documentation-Planning/dp/0321712463)
 
