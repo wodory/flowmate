@@ -19,7 +19,7 @@ Don't draw a shpae and type text. Write your story, process or task first, then 
 ## How to Use 
 
 ### Step 1
-Just text the label first, 
+Just add the label first, 
 
 ![before](doc/before.png)
 
