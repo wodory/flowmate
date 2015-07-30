@@ -27,14 +27,15 @@ And press magic keys like
 
 ### Option
 
-You can use your own options to modify lib/options.js
+Modify `lib/options.js` if you wanna use your own options like shape/border colors and so on.
 
 ## To do
 
 - [ ] Group and connect to/from group
 - [ ] Smart align - to align Decision and other symbol
 - [ ] Smart connect - really hard :-(
-- [ ] Option dialog 
+- [ ] Redraw connect - Redraw connectors if the shapes are moved
+- [ ] Option dialog - Change shape/connector/border color and so on... 
 
 ## Special Thanks 
 
