@@ -2,7 +2,7 @@
 
 Don't draw a shpae and type text. Write your story, process or task first, then make shpaes with the text automatically. It's just speedy and super simple. 
 
-## Insatll Plugin 
+## Install Plugin 
 
 ### Sketch Toolbox
 
