@@ -1,12 +1,12 @@
 # Flowmate
 
-Don't draw a shpae and type text. Write your story, process or task first, then make shpaes with the text automatically. It's just speedy and super simple. 
+Don't draw a shape and type text. Write your story, process or task first, then make shapes with the text automatically. It's just speedy and super simple. 
 
 ## Install Plugin 
 
 ### Sketch Toolbox
 
-1. Install [Sekcth Toolbox](http://sketchtoolbox.com/)
+1. Install [Sektch Toolbox](http://sketchtoolbox.com/)
 2. Search `Flowmate`
 3. Click `Install`
 
@@ -47,7 +47,7 @@ Modify `lib/options.js` if you wanna use your own options like shape/border colo
 
 ## Special Thanks 
 
-#### [tadija - AEFlowcahrt](https://github.com/tadija/AEFlowchart)
+#### [tadija - AEFlowchart](https://github.com/tadija/AEFlowchart)
 
 The flowmate is inspired by AEFlowchart. The concept is great and I use some codes he made. Thanks tadija!
 
@@ -55,6 +55,6 @@ The flowmate is inspired by AEFlowchart. The concept is great and I use some cod
 
 The style of flowchart, espacially the decision symbol, is based on [Communicating Design 2nd edition](http://www.amazon.com/Communicating-Design-Developing-Documentation-Planning/dp/0321712463) by Dan Brown. His book is one of the best UX book in my opinion even he doesn't know me ;-) 
 
-#### [utmo](https://github.com/utom/) and [marcosvidal](https://github.com/marcosvidal)
+#### [utom](https://github.com/utom/) and [marcosvidal](https://github.com/marcosvidal)
 
 When I stared to develop my own plugin, there code is great examples. 
