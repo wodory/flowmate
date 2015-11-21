@@ -30,8 +30,9 @@ function drawAllConnections(selection)
 function drawOneConnection(firstStep, secondStep) 
 {
 	// get connectionsGroup position
-
+	log ("drawOneConnection")
 	var parentGroup = [firstStep parentGroup];
+	log (parentGroup)
 	var connectionsGroup = getConnectionsGroup(parentGroup);
 	var connectionsGroupFrame = [connectionsGroup frame];
 	var connectionsGroupX = [connectionsGroupFrame x];
@@ -174,8 +175,11 @@ function sortByPosition(a,b)
 
 function getConnectionsGroup(parentGroup)
 {
+	/*var groupName         = com.flowmate.options.connector.connectorGroupName, 
+		connectionsGroup  = [parentGroup layerWithId:groupName];*/
+
 	var groupName         = com.flowmate.options.connector.connectorGroupName, 
-		connectionsGroup  = [parentGroup layerWithId:groupName];
+		connectionsGroup  = [parentGroup layerWithID:groupName];
 
 	// create group if not exists
 	if (connectionsGroup === null) {
