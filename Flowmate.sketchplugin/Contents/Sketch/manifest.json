@@ -1,0 +1,66 @@
+{
+    "name": "Flowmate - Task",
+    "commands": [
+    {
+        "name": "Connector",
+        "identifier": "draw-connector",
+        "shortcut": "ctrl shift C",
+        "script": "connector.js"
+    }, {
+        "name": "Decision",
+        "identifier": "decision",
+        "shortcut": "ctrl shift D",
+        "script": "decision.js",
+        "handler" : "onRun"
+    }, {
+        "name": "Process",
+        "identifier": "process",
+        "script": "process.js",
+        "shortcut": "ctrl shift P",
+        "handler" : "onRun"
+    }, {
+        "name": "Reference",
+        "identifier": "reference",
+        "shortcut": "ctrl shift R",
+        "script": "reference.js"
+    }, {
+        "name": "Label",
+        "identifier": "label",
+        "shortcut": "ctrl shift L",
+        "script": "label.js"
+    }, {
+        "name": "Update Connector",
+        "identifier": "update-connector",
+        "shortcut": "ctrl shift U",
+        "script": "updateconnect.js"
+    }],
+    "menu": {
+        "isRoot": false,
+        "title": "Flowmate",
+        "items": [
+        	{
+        		"title" : "Shapes",
+        		"items" : [
+        			"process",
+					"label",
+					"decision",
+					"reference"
+        		]
+        	}, {
+        		"title" : "Connector",
+        		"items" : [
+					"draw-connector",
+					"update-connector"
+        		]
+        	}
+        ]
+    },
+    "description": "Draw flowchart rapidly",
+    "author": "Sanghun, Woo",
+    "homepage": "http://github.com/wodory/flowmate",
+    "version": "1.1",
+    "identifier": "com.flowmate",
+    "updateURL": "https://github.com/wodory/flowmate",
+    "compatibleVersion": "3.4.3",
+    "bundleVersion": "1.1"
+}

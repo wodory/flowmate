@@ -1,46 +1,52 @@
-// Connect (ctrl shift c)
+// Update Connect (ctrl shift u)
 
 @import "lib/flowmate.js"
 @import 'lib/options.js'
 @import 'lib/util.js'
 
-com.flowmate.init();
-com.flowmate.connectSymbols(drawAllConnections);
+var onRun = function (context) {
+	com.flowmate.init(context);
+	com.flowmate.updateConnectors(updateConnection);
+}
 
-function drawAllConnections(selection)
-{
-	// sort selection from top to bottom steps
-	var sortedSelection = [],
-		loop = [selection objectEnumerator];
+function updateConnection(connectionsGroup) {
+	log ("updateConnection");
 
-	while (item = [loop nextObject]) {
-		sortedSelection.push(item);
-	}
-	sortedSelection = sortedSelection.sort(sortByPosition);
+	var connectors  		= connectionsGroup.layers().array(),
+		lengthOfConnectors 	= connectors.count(),
+		willRemoveLayers	= [];
 
-	// draw connection between every two steps
-	for (var i = 0; i < sortedSelection.length; i++) {
-		// skip last step (there is no step after to connect)
-		if ((i + 1) < sortedSelection.length) {
-			//Draw Connector between fair and store the IDs
-			drawOneConnection(sortedSelection[i], sortedSelection[i + 1]);
-			updateConnection (sortedSelection[i], sortedSelection[i + 1]);
+	for (var i=0; i < lengthOfConnectors; i++) {
+		var splitName 	= connectionsGroup.layerAtIndex(i).name().split(":"),
+			firstId 	= splitName[splitName.length-2],
+			secondId 	= splitName[splitName.length-1],
+			firstShape	= com.flowmate.current.layerWithID(firstId),
+			secondShape = com.flowmate.current.layerWithID(secondId);
+
+		log (firstShape);
+		log (secondShape);
+
+		// if firstShape and secondShape is exist, redraw the connector. 
+		// else, it mean firstShape and/or secondShape is deleted, the connector will be deleted.
+		if (firstShape && secondShape) {
+			_drawOneConnection(firstShape, secondShape, connectors[i], willRemoveLayers);	
+		} else {
+			willRemoveLayers.push (connectors[i]);
+
 		}
 	}
+
+	// Remove old shapes
+	for (var i=0; i < willRemoveLayers.length; i++) {
+		connectionsGroup.removeLayer (willRemoveLayers[i]);
+	}
+
 }
 
-function updateConnection(first, second) {
-	var connectionsGroup 	= getConnectionsGroup(com.flowmate.current),
-		connectors 			= connectionsGroup.layers().array();
-
-	log (first.objectID());
-	log (com.flowmate.current.layerWithID(first.objectID()));
-}
-
-function drawOneConnection(firstStep, secondStep) 
+function _drawOneConnection(firstStep, secondStep, oldShape, willRemoveLayers) 
 {
 	// get connectionsGroup position
-	log ("drawOneConnection")
+	log ("_drawOneConnection")
 	var parentGroup = [firstStep parentGroup];
 	var connectionsGroup = getConnectionsGroup(parentGroup);
 	var connectionsGroupFrame = [connectionsGroup frame];
@@ -57,7 +63,7 @@ function drawOneConnection(firstStep, secondStep)
 		firstStepHorizontalMiddle, 
 		firstStepVerticalMiddle;
 
-	if (firstStep.name().indexOf("Decision -") > -1) {
+	if (com.flowmate.isDecision(firstStep)) {
 
 		var decisionShape = firstStep.layers().array()[0];
 		var decisionShapeFrame = decisionShape.frame();
@@ -87,7 +93,7 @@ function drawOneConnection(firstStep, secondStep)
 			secondStepHorizontalMiddle, 
 			secondStepVerticalMiddle;
 
-	if (secondStep.name().indexOf("Decision -") > -1) {
+	if (com.flowmate.isDecision(secondStep)) {
 		var decisionShape = secondStep.layers().array()[0];
 		var decisionShapeFrame = decisionShape.frame();
 
@@ -158,13 +164,12 @@ function drawOneConnection(firstStep, secondStep)
 
 	// set arrow;
 	lineShape.firstLayer().setEndDecorationType(1);
- 
+
+	// store old line shape;
+	willRemoveLayers.push (oldShape);
+	 
 	// add line shape to connectionsGroup
 	[connectionsGroup addLayers:[lineShape]];
-
-	// deselect steps
-	[firstStep setIsSelected:false];
-	[secondStep setIsSelected:false];
 }
 
 function sortByPosition(a,b)

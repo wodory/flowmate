@@ -1,0 +1,2092 @@
+# Tree Dictionary
+
+2015. 11. 22. 오후 11:22:01.936 Connect (Sketch Plugin)[40547]: {
+    "<class>" = MSLayerGroup;
+    exportOptions =     {
+        "<class>" = MSExportOptions;
+        includedLayerIds =         {
+            "<class>" = MSArray;
+            "<items>" =             (
+            );
+        };
+        layerOptions = 0;
+        shouldTrim = 0;
+        sizes =         {
+            "<class>" = MSArray;
+            "<items>" =             (
+            );
+        };
+    };
+    frame =     {
+        "<class>" = MSRect;
+        constrainProportions = 0;
+        height = 56;
+        width = 121;
+        x = 140;
+        y = 155;
+    };
+    hasClickThrough = 0;
+    isFlippedHorizontal = 0;
+    isFlippedVertical = 0;
+    isLocked = 0;
+    isVisible = 1;
+    layerListExpandedType = 0;
+    layers =     {
+        "<class>" = MSArray;
+        "<items>" =         (
+                        {
+                "<class>" = MSShapeGroup;
+                clippingMaskMode = 0;
+                exportOptions =                 {
+                    "<class>" = MSExportOptions;
+                    includedLayerIds =                     {
+                        "<class>" = MSArray;
+                        "<items>" =                         (
+                        );
+                    };
+                    layerOptions = 0;
+                    shouldTrim = 0;
+                    sizes =                     {
+                        "<class>" = MSArray;
+                        "<items>" =                         (
+                        );
+                    };
+                };
+                frame =                 {
+                    "<class>" = MSRect;
+                    constrainProportions = 0;
+                    height = 55;
+                    objectID = "B1B59021-A644-42DB-9031-E985B87F4C94";
+                    width = 120;
+                    x = "0.5";
+                    y = "0.5";
+                };
+                hasClickThrough = 0;
+                hasClippingMask = 0;
+                isFlippedHorizontal = 0;
+                isFlippedVertical = 0;
+                isLocked = 0;
+                isVisible = 1;
+                layerListExpandedType = 1;
+                layers =                 {
+                    "<class>" = MSArray;
+                    "<items>" =                     (
+                                                {
+                            "<class>" = MSShapePathLayer;
+                            booleanOperation = "-1";
+                            edited = 1;
+                            exportOptions =                             {
+                                "<class>" = MSExportOptions;
+                                includedLayerIds =                                 {
+                                    "<class>" = MSArray;
+                                    "<items>" =                                     (
+                                    );
+                                };
+                                layerOptions = 0;
+                                shouldTrim = 0;
+                                sizes =                                 {
+                                    "<class>" = MSArray;
+                                    "<items>" =                                     (
+                                    );
+                                };
+                            };
+                            frame =                             {
+                                "<class>" = MSRect;
+                                constrainProportions = 0;
+                                height = 55;
+                                width = 120;
+                                x = 0;
+                                y = 0;
+                            };
+                            isFlippedHorizontal = 0;
+                            isFlippedVertical = 0;
+                            isLocked = 0;
+                            isVisible = 1;
+                            layerListExpandedType = 0;
+                            name = Path;
+                            nameIsFixed = 0;
+                            objectID = "2F7EF547-0105-4643-BD3B-0C2961EE9CE1";
+                            path =                             {
+                                "<class>" = MSShapePath;
+                                isClosed = 1;
+                                points =                                 {
+                                    "<class>" = MSArray;
+                                    "<items>" =                                     (
+                                                                                {
+                                            "<class>" = MSCurvePoint;
+                                            cornerRadius = 0;
+                                            curveFrom =                                             {
+                                                x = 0;
+                                                y = 0;
+                                            };
+                                            curveMode = 1;
+                                            curveTo =                                             {
+                                                x = 0;
+                                                y = 0;
+                                            };
+                                            hasCurveFrom = 0;
+                                            hasCurveTo = 0;
+                                            point =                                             {
+                                                x = 0;
+                                                y = 0;
+                                            };
+                                        },
+                                                                                {
+                                            "<class>" = MSCurvePoint;
+                                            cornerRadius = 0;
+                                            curveFrom =                                             {
+                                                x = 1;
+                                                y = 0;
+                                            };
+                                            curveMode = 1;
+                                            curveTo =                                             {
+                                                x = 1;
+                                                y = 0;
+                                            };
+                                            hasCurveFrom = 0;
+                                            hasCurveTo = 0;
+                                            point =                                             {
+                                                x = 1;
+                                                y = 0;
+                                            };
+                                        },
+                                                                                {
+                                            "<class>" = MSCurvePoint;
+                                            cornerRadius = 0;
+                                            curveFrom =                                             {
+                                                x = 1;
+                                                y = 1;
+                                            };
+                                            curveMode = 1;
+                                            curveTo =                                             {
+                                                x = 1;
+                                                y = 1;
+                                            };
+                                            hasCurveFrom = 0;
+                                            hasCurveTo = 0;
+                                            point =                                             {
+                                                x = 1;
+                                                y = 1;
+                                            };
+                                        },
+                                                                                {
+                                            "<class>" = MSCurvePoint;
+                                            cornerRadius = 0;
+                                            curveFrom =                                             {
+                                                x = 0;
+                                                y = 1;
+                                            };
+                                            curveMode = 1;
+                                            curveTo =                                             {
+                                                x = 0;
+                                                y = 1;
+                                            };
+                                            hasCurveFrom = 0;
+                                            hasCurveTo = 0;
+                                            point =                                             {
+                                                x = 0;
+                                                y = 1;
+                                            };
+                                        }
+                                    );
+                                };
+                            };
+                            rotation = 0;
+                            shouldBreakMaskChain = 0;
+                        }
+                    );
+                };
+                name = "Process - t- bgshape";
+                nameIsFixed = 0;
+                objectID = "8F377DD4-3373-4F1B-BE3A-020B23FD1CE7";
+                rotation = 0;
+                shouldBreakMaskChain = 0;
+                style =                 {
+                    "<class>" = MSStyle;
+                    blur =                     {
+                        "<class>" = MSStyleBlur;
+                        center =                         {
+                            x = "0.5";
+                            y = "0.5";
+                        };
+                        isEnabled = 0;
+                        motionAngle = 0;
+                        radius = 10;
+                        type = 0;
+                    };
+                    borderOptions =                     {
+                        "<class>" = MSStyleBorderOptions;
+                        dashPattern =                         (
+                        );
+                        isEnabled = 0;
+                        lineCapStyle = 0;
+                        lineJoinStyle = 0;
+                    };
+                    borders =                     {
+                        "<class>" = MSBorderStyleCollection;
+                        "<items>" =                         (
+                                                        {
+                                "<class>" = MSStyleBorder;
+                                color =                                 {
+                                    "<class>" = MSColor;
+                                    value = "#000000";
+                                };
+                                contextSettings =                                 {
+                                    "<class>" = MSGraphicsContextSettings;
+                                    blendMode = 0;
+                                    opacity = 1;
+                                };
+                                fillType = 0;
+                                gradient =                                 {
+                                    "<class>" = MSGradient;
+                                    elipseLength = 1;
+                                    from =                                     {
+                                        x = "0.5";
+                                        y = 0;
+                                    };
+                                    gradientType = 0;
+                                    points =                                     {
+                                        "<class>" = MSGradientPointArray;
+                                        "<points>" =                                         (
+                                            "{0.5, 0}",
+                                            "{0.5, 1}"
+                                        );
+                                    };
+                                    shouldSmoothenOpacity = 0;
+                                    stops =                                     {
+                                        "<class>" = MSArray;
+                                        "<items>" =                                         (
+                                                                                        {
+                                                "<class>" = MSGradientStop;
+                                                color =                                                 {
+                                                    "<class>" = MSColor;
+                                                    value = "#FFFFFF";
+                                                };
+                                                position = 0;
+                                            },
+                                                                                        {
+                                                "<class>" = MSGradientStop;
+                                                color =                                                 {
+                                                    "<class>" = MSColor;
+                                                    value = "#000000";
+                                                };
+                                                position = 1;
+                                            }
+                                        );
+                                    };
+                                    to =                                     {
+                                        x = "0.5";
+                                        y = 1;
+                                    };
+                                };
+                                isEnabled = 1;
+                                objectID = "BE5C53B9-D520-45E7-B2DE-737827B84E48";
+                                position = 0;
+                                thickness = 2;
+                            }
+                        );
+                    };
+                    colorControls =                     {
+                        "<class>" = MSStyleColorControls;
+                        brightness = 0;
+                        contrast = 1;
+                        hue = 0;
+                        isEnabled = 0;
+                        saturation = 1;
+                    };
+                    contextSettings =                     {
+                        "<class>" = MSGraphicsContextSettings;
+                        blendMode = 0;
+                        opacity = 1;
+                    };
+                    endDecorationType = 0;
+                    fills =                     {
+                        "<class>" = MSFillStyleCollection;
+                        "<items>" =                         (
+                                                        {
+                                "<class>" = MSStyleFill;
+                                color =                                 {
+                                    "<class>" = MSColor;
+                                    value = "#D8D8D8";
+                                };
+                                contextSettings =                                 {
+                                    "<class>" = MSGraphicsContextSettings;
+                                    blendMode = 0;
+                                    opacity = 1;
+                                };
+                                fillType = 1;
+                                gradient =                                 {
+                                    "<class>" = MSGradient;
+                                    elipseLength = 1;
+                                    from =                                     {
+                                        x = "0.5";
+                                        y = 0;
+                                    };
+                                    gradientType = 0;
+                                    points =                                     {
+                                        "<class>" = MSGradientPointArray;
+                                        "<points>" =                                         (
+                                            "{0.5, 0}",
+                                            "{0.5, 1}"
+                                        );
+                                    };
+                                    shouldSmoothenOpacity = 0;
+                                    stops =                                     {
+                                        "<class>" = MSArray;
+                                        "<items>" =                                         (
+                                                                                        {
+                                                "<class>" = MSGradientStop;
+                                                color =                                                 {
+                                                    "<class>" = MSColor;
+                                                    value = "#FDFDFD";
+                                                };
+                                                objectID = "4F323FA8-E8CF-4ADF-8377-AC7FCBC0893A";
+                                                position = 0;
+                                            },
+                                                                                        {
+                                                "<class>" = MSGradientStop;
+                                                color =                                                 {
+                                                    "<class>" = MSColor;
+                                                    value = "#E7E8E9";
+                                                };
+                                                objectID = "F8D30593-899E-4D93-ACD1-6CAAEB3EB4BD";
+                                                position = 1;
+                                            }
+                                        );
+                                    };
+                                    to =                                     {
+                                        x = "0.5";
+                                        y = 1;
+                                    };
+                                };
+                                isEnabled = 1;
+                                noiseIndex = 0;
+                                noiseIntensity = 0;
+                                objectID = "1128A7CA-FD62-4BFC-B28C-19A1178606CE";
+                                patternFillType = 0;
+                                patternTileScale = 1;
+                            }
+                        );
+                    };
+                    innerShadows =                     {
+                        "<class>" = MSInnerShadowStyleCollection;
+                        "<items>" =                         (
+                        );
+                    };
+                    miterLimit = 10;
+                    reflection =                     {
+                        "<class>" = MSStyleReflection;
+                        distance = 1;
+                        isEnabled = 0;
+                        strength = "0.5";
+                    };
+                    shadows =                     {
+                        "<class>" = MSShadowStyleCollection;
+                        "<items>" =                         (
+                        );
+                    };
+                    startDecorationType = 0;
+                };
+                windingRule = 1;
+            },
+                        {
+                "<class>" = MSTextLayer;
+                automaticallyDrawOnUnderlyingPath = 0;
+                dontSynchroniseWithSymbol = 0;
+                exportOptions =                 {
+                    "<class>" = MSExportOptions;
+                    includedLayerIds =                     {
+                        "<class>" = MSArray;
+                        "<items>" =                         (
+                        );
+                    };
+                    layerOptions = 0;
+                    shouldTrim = 0;
+                    sizes =                     {
+                        "<class>" = MSArray;
+                        "<items>" =                         (
+                        );
+                    };
+                };
+                frame =                 {
+                    "<class>" = MSRect;
+                    constrainProportions = 0;
+                    height = 18;
+                    objectID = "633DA322-3691-4F30-BFC0-19E289E4A375";
+                    width = 5;
+                    x = 58;
+                    y = 19;
+                };
+                heightIsClipped = 0;
+                isFlippedHorizontal = 0;
+                isFlippedVertical = 0;
+                isLocked = 0;
+                isVisible = 1;
+                layerListExpandedType = 0;
+                name = "label - t";
+                nameIsFixed = 0;
+                objectID = "8D104569-A5A1-4980-BCD0-96B24C13F360";
+                rotation = 0;
+                shouldBreakMaskChain = 0;
+                storage =                 {
+                    "<class>" = NSConcreteTextStorage;
+                    attributes =                     (
+                                                {
+                            NSColor =                             {
+                                "<class>" = NSColor;
+                                color = "rgba(0.137255,0.137255,0.137255,1.000000)";
+                            };
+                            NSFont =                             {
+                                attributes =                                 {
+                                    NSFontNameAttribute = Helvetica;
+                                    NSFontSizeAttribute = 15;
+                                };
+                                family = Helvetica;
+                                name = Helvetica;
+                            };
+                            NSParagraphStyle =                             {
+                                "<class>" = NSMutableParagraphStyle;
+                                style =                                 {
+                                    alignment = 2;
+                                    baseWritingDirection = "-1";
+                                    defaultTabInterval = 0;
+                                    firstLineHeadIndent = 0;
+                                    headIndent = 0;
+                                    headerLevel = 0;
+                                    hyphenationFactor = 0;
+                                    lineBreakMode = 0;
+                                    lineHeightMultiple = 0;
+                                    lineSpacing = 0;
+                                    maximumLineHeight = 0;
+                                    minimumLineHeight = 0;
+                                    paragraphSpacing = 0;
+                                    paragraphSpacingBefore = 0;
+                                    tabStops =                                     (
+                                        28,
+                                        56,
+                                        84,
+                                        112,
+                                        140,
+                                        168,
+                                        196,
+                                        224,
+                                        252,
+                                        280,
+                                        308,
+                                        336
+                                    );
+                                    tailIndent = 0;
+                                    tighteningFactorForTruncation = "0.05";
+                                };
+                            };
+                            length = 1;
+                            location = 0;
+                            text = t;
+                        }
+                    );
+                    text = t;
+                };
+                style =                 {
+                    "<class>" = MSStyle;
+                    blur =                     {
+                        "<class>" = MSStyleBlur;
+                        center =                         {
+                            x = "0.5";
+                            y = "0.5";
+                        };
+                        isEnabled = 0;
+                        motionAngle = 0;
+                        radius = 10;
+                        type = 0;
+                    };
+                    borderOptions =                     {
+                        "<class>" = MSStyleBorderOptions;
+                        dashPattern =                         (
+                        );
+                        isEnabled = 0;
+                        lineCapStyle = 0;
+                        lineJoinStyle = 0;
+                    };
+                    borders =                     {
+                        "<class>" = MSBorderStyleCollection;
+                        "<items>" =                         (
+                        );
+                    };
+                    colorControls =                     {
+                        "<class>" = MSStyleColorControls;
+                        brightness = 0;
+                        contrast = 1;
+                        hue = 0;
+                        isEnabled = 0;
+                        saturation = 1;
+                    };
+                    contextSettings =                     {
+                        "<class>" = MSGraphicsContextSettings;
+                        blendMode = 0;
+                        opacity = 1;
+                    };
+                    endDecorationType = 0;
+                    fills =                     {
+                        "<class>" = MSFillStyleCollection;
+                        "<items>" =                         (
+                        );
+                    };
+                    innerShadows =                     {
+                        "<class>" = MSInnerShadowStyleCollection;
+                        "<items>" =                         (
+                        );
+                    };
+                    miterLimit = 10;
+                    reflection =                     {
+                        "<class>" = MSStyleReflection;
+                        distance = 1;
+                        isEnabled = 0;
+                        strength = "0.5";
+                    };
+                    shadows =                     {
+                        "<class>" = MSShadowStyleCollection;
+                        "<items>" =                         (
+                        );
+                    };
+                    startDecorationType = 0;
+                    textStyle =                     {
+                        "<class>" = MSTextStyle;
+                        NSColor =                         {
+                            "<class>" = NSColor;
+                            color = "rgba(0.137255,0.137255,0.137255,1.000000)";
+                        };
+                        NSFont =                         {
+                            attributes =                             {
+                                NSFontNameAttribute = Helvetica;
+                                NSFontSizeAttribute = 15;
+                            };
+                            family = Helvetica;
+                            name = Helvetica;
+                        };
+                        NSParagraphStyle =                         {
+                            "<class>" = NSMutableParagraphStyle;
+                            style =                             {
+                                alignment = 2;
+                                baseWritingDirection = "-1";
+                                defaultTabInterval = 0;
+                                firstLineHeadIndent = 0;
+                                headIndent = 0;
+                                headerLevel = 0;
+                                hyphenationFactor = 0;
+                                lineBreakMode = 0;
+                                lineHeightMultiple = 0;
+                                lineSpacing = 0;
+                                maximumLineHeight = 0;
+                                minimumLineHeight = 0;
+                                paragraphSpacing = 0;
+                                paragraphSpacingBefore = 0;
+                                tabStops =                                 (
+                                    28,
+                                    56,
+                                    84,
+                                    112,
+                                    140,
+                                    168,
+                                    196,
+                                    224,
+                                    252,
+                                    280,
+                                    308,
+                                    336
+                                );
+                                tailIndent = 0;
+                                tighteningFactorForTruncation = "0.05";
+                            };
+                        };
+                    };
+                };
+                textBehaviour = 0;
+                usesNewLineSpacingBehaviour = 0;
+            }
+        );
+    };
+    name = "Process - t";
+    nameIsFixed = 0;
+    objectID = "C53DFA6E-D478-4541-B51D-7E71A1522113";
+    rotation = 0;
+    shouldBreakMaskChain = 0;
+    style =     {
+        "<class>" = MSStyle;
+        blur =         {
+            "<class>" = MSStyleBlur;
+            center =             {
+                x = "0.5";
+                y = "0.5";
+            };
+            isEnabled = 0;
+            motionAngle = 0;
+            radius = 10;
+            type = 0;
+        };
+        borderOptions =         {
+            "<class>" = MSStyleBorderOptions;
+            dashPattern =             (
+            );
+            isEnabled = 0;
+            lineCapStyle = 0;
+            lineJoinStyle = 0;
+        };
+        borders =         {
+            "<class>" = MSBorderStyleCollection;
+            "<items>" =             (
+            );
+        };
+        colorControls =         {
+            "<class>" = MSStyleColorControls;
+            brightness = 0;
+            contrast = 1;
+            hue = 0;
+            isEnabled = 0;
+            saturation = 1;
+        };
+        contextSettings =         {
+            "<class>" = MSGraphicsContextSettings;
+            blendMode = 0;
+            opacity = 1;
+        };
+        endDecorationType = 0;
+        fills =         {
+            "<class>" = MSFillStyleCollection;
+            "<items>" =             (
+            );
+        };
+        innerShadows =         {
+            "<class>" = MSInnerShadowStyleCollection;
+            "<items>" =             (
+            );
+        };
+        miterLimit = 10;
+        reflection =         {
+            "<class>" = MSStyleReflection;
+            distance = 1;
+            isEnabled = 0;
+            strength = "0.5";
+        };
+        shadows =         {
+            "<class>" = MSShadowStyleCollection;
+            "<items>" =             (
+            );
+        };
+        startDecorationType = 0;
+    };
+}
+
+
+# Properties
+
+    debugDescription, typeEncoding=@\"NSString\", ivar=(null), attributes=(copy,readonly)
+    description, typeEncoding=@\"NSString\", ivar=(null), attributes=(copy,readonly)
+    enableAutomaticScaling, typeEncoding=c, ivar=_enableAutomaticScaling, attributes=(assign,nonatomic)
+    hash, typeEncoding=Q, ivar=(null), attributes=(assign,readonly)
+    hasLayerWithMaskMode, typeEncoding=q, ivar=_hasLayerWithMaskMode, attributes=(assign,nonatomic)
+    ignoreNextSymbolSyncChange, typeEncoding=c, ivar=_ignoreNextSymbolSyncChange, attributes=(assign,nonatomic)
+    isOpen, typeEncoding=c, ivar=_isOpen, attributes=(assign,nonatomic)
+    lightweightContainsSelectedItem, typeEncoding=c, ivar=_lightweightContainsSelectedItem, attributes=(assign,nonatomic)
+    preCalculatedHasSelectedLayer, typeEncoding=q, ivar=_preCalculatedHasSelectedLayer, attributes=(assign,nonatomic)
+    relativeChildFrames, typeEncoding=@\"NSMutableArray\", ivar=_relativeChildFrames, attributes=(retain,nonatomic)
+    sharedObjectID, typeEncoding=@\"NSString\", ivar=(null), attributes=(retain,nonatomic)
+    superclass, typeEncoding=#, ivar=(null), attributes=(assign,readonly)
+
+
+# Properties With Ancestors
+
+    absoluteRect, typeEncoding=@\"MSAbsoluteRect\", ivar=_absoluteRect, attributes=(retain,nonatomic)
+    attributeKeys, typeEncoding=@\"NSArray\", ivar=(null), attributes=(copy,readonly)
+    autoContentAccessingProxy, typeEncoding=@, ivar=(null), attributes=(retain,readonly)
+    badgeMap, typeEncoding=@\"NSDictionary\", ivar=(null), attributes=(assign,nonatomic,readonly)
+    badgeMenu, typeEncoding=@\"NSMenu\", ivar=(null), attributes=(assign,nonatomic,readonly)
+    bounds, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}, ivar=(null), attributes=(assign,nonatomic,readonly)
+    cachedImmutableModelObject, typeEncoding=@, ivar=(null), attributes=(retain,nonatomic)
+    cachedInfluenceRectForBounds, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}, ivar=_cachedInfluenceRectForBounds, attributes=(assign,nonatomic)
+    classCode, typeEncoding=I, ivar=(null), attributes=(assign,readonly)
+    classDescription, typeEncoding=@\"NSClassDescription\", ivar=(null), attributes=(copy,readonly)
+    classForKeyedArchiver, typeEncoding=#, ivar=(null), attributes=(assign,readonly)
+    className, typeEncoding=@\"NSString\", ivar=(null), attributes=(copy,readonly)
+    constrainProportions, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic)
+    debugDescription, typeEncoding=@\"NSString\", ivar=(null), attributes=(copy,readonly)
+    description, typeEncoding=@\"NSString\", ivar=(null), attributes=(copy,readonly)
+    displayType, typeEncoding=Q, ivar=(null), attributes=(assign,nonatomic,readonly)
+    documentData, typeEncoding=@\"MSDocumentData\", ivar=_documentData, attributes=(assign,nonatomic,weak)
+    enableAutomaticScaling, typeEncoding=c, ivar=_enableAutomaticScaling, attributes=(assign,nonatomic)
+    expandableInLayerList, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic,readonly)
+    exportOptions, typeEncoding=@\"MSExportOptions\", ivar=_exportOptions, attributes=(retain,nonatomic)
+    exposedBindings, typeEncoding=@\"NSArray\", ivar=(null), attributes=(copy,readonly)
+    filterType, typeEncoding=Q, ivar=(null), attributes=(assign,nonatomic,readonly)
+    frame, typeEncoding=@\"MSRect\", ivar=_frame, attributes=(retain,nonatomic)
+    frameInArtboard, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}, ivar=(null), attributes=(assign,nonatomic)
+    hasCache, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic,readonly)
+    hasClickThrough, typeEncoding=c, ivar=_hasClickThrough, attributes=(assign,nonatomic)
+    hash, typeEncoding=Q, ivar=(null), attributes=(assign,readonly)
+    hasHighlight, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic,readonly)
+    hasLayerWithMaskMode, typeEncoding=q, ivar=_hasLayerWithMaskMode, attributes=(assign,nonatomic)
+    ignoreNextSymbolSyncChange, typeEncoding=c, ivar=_ignoreNextSymbolSyncChange, attributes=(assign,nonatomic)
+    immutableModelObject, typeEncoding=@, ivar=(null), attributes=(assign,nonatomic,readonly)
+    isActive, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic,readonly)
+    isAlreadyCaching, typeEncoding=c, ivar=_isAlreadyCaching, attributes=(assign,nonatomic)
+    isExpanded, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic,readonly)
+    isExportableViaDragAndDrop, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic,readonly)
+    isFlippedHorizontal, typeEncoding=c, ivar=_isFlippedHorizontal, attributes=(assign,nonatomic)
+    isFlippedVertical, typeEncoding=c, ivar=_isFlippedVertical, attributes=(assign,nonatomic)
+    isHovering, typeEncoding=c, ivar=_isHovering, attributes=(assign,nonatomic)
+    isLightweightCopy, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic,readonly)
+    isLightweightCopy, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic,readonly)
+    isLightweightCopy, typeEncoding=c, ivar=_isLightweightCopy, attributes=(assign,nonatomic)
+    isLocked, typeEncoding=c, ivar=_isLocked, attributes=(assign,nonatomic)
+    isOpen, typeEncoding=c, ivar=_isOpen, attributes=(assign,nonatomic)
+    isSelected, typeEncoding=c, ivar=_isSelected, attributes=(assign,nonatomic)
+    isVisible, typeEncoding=c, ivar=_isVisible, attributes=(assign,nonatomic)
+    layerListExpandedType, typeEncoding=q, ivar=_layerListExpandedType, attributes=(assign,nonatomic)
+    layers, typeEncoding=@\"MSArray\", ivar=_layers, attributes=(retain,nonatomic)
+    lightweightAbsoluteRect, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}, ivar=_lightweightAbsoluteRect, attributes=(assign,nonatomic)
+    lightweightContainsSelectedItem, typeEncoding=c, ivar=_lightweightContainsSelectedItem, attributes=(assign,nonatomic)
+    lightweightCopy, typeEncoding=@\"MSModelObject\", ivar=(null), attributes=(assign,nonatomic,readonly)
+    lightweightCopy, typeEncoding=@\"MSModelObject\", ivar=_lightweightCopy, attributes=(retain,nonatomic)
+    lightweightDrawableFrame, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}, ivar=_lightweightDrawableFrame, attributes=(assign,nonatomic)
+    lightweightHasBitmapStylesEnabled, typeEncoding=c, ivar=_lightweightHasBitmapStylesEnabled, attributes=(assign,nonatomic)
+    lightweightTransform, typeEncoding=@\"NSAffineTransform\", ivar=_lightweightTransform, attributes=(retain,nonatomic)
+    name, typeEncoding=@\"NSString\", ivar=(null), attributes=(retain,nonatomic)
+    name, typeEncoding=@\"NSString\", ivar=_name, attributes=(copy,nonatomic)
+    nameIsFixed, typeEncoding=c, ivar=_nameIsFixed, attributes=(assign,nonatomic)
+    objectID, typeEncoding=@, ivar=_objectID, attributes=(copy,nonatomic)
+    observationInfo, typeEncoding=^v, ivar=(null), attributes=(assign)
+    origin, typeEncoding={CGPoint=dd}, ivar=(null), attributes=(assign,nonatomic)
+    originalObjectID, typeEncoding=@\"NSString\", ivar=_originalObjectID, attributes=(retain,nonatomic)
+    parentObject, typeEncoding=@\"MSModelBase\", ivar=_parentObject, attributes=(assign,nonatomic,weak)
+    preCalculatedHasSelectedLayer, typeEncoding=q, ivar=_preCalculatedHasSelectedLayer, attributes=(assign,nonatomic)
+    previewImages, typeEncoding=@\"NSDictionary\", ivar=(null), attributes=(assign,nonatomic,readonly)
+    proportions, typeEncoding=d, ivar=(null), attributes=(assign,nonatomic)
+    rect, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}, ivar=(null), attributes=(assign,nonatomic)
+    relativeChildFrames, typeEncoding=@\"NSMutableArray\", ivar=_relativeChildFrames, attributes=(retain,nonatomic)
+    rotation, typeEncoding=d, ivar=_rotation, attributes=(assign,nonatomic)
+    scriptingProperties, typeEncoding=@\"NSDictionary\", ivar=(null), attributes=(copy)
+    selectedBadgeMenuItem, typeEncoding=Q, ivar=(null), attributes=(assign,nonatomic,readonly)
+    selectedInLayerList, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic,readonly)
+    sharedObjectID, typeEncoding=@\"NSString\", ivar=(null), attributes=(retain,nonatomic)
+    sharedObjectID, typeEncoding=@\"NSString\", ivar=_sharedObjectID, attributes=(retain,nonatomic)
+    shouldBreakMaskChain, typeEncoding=c, ivar=_shouldBreakMaskChain, attributes=(assign,nonatomic)
+    shouldCachePreview, typeEncoding=c, ivar=(null), attributes=(assign,nonatomic,readonly)
+    style, typeEncoding=@\"MSStyle\", ivar=_style, attributes=(retain,nonatomic)
+    superclass, typeEncoding=#, ivar=(null), attributes=(assign,readonly)
+    toManyRelationshipKeys, typeEncoding=@\"NSArray\", ivar=(null), attributes=(copy,readonly)
+    toOneRelationshipKeys, typeEncoding=@\"NSArray\", ivar=(null), attributes=(copy,readonly)
+    traits, typeEncoding=Q, ivar=_traits, attributes=(assign,nonatomic)
+    transformStruct, typeEncoding={_CHTransformStruct=dccc}, ivar=(null), attributes=(assign,nonatomic)
+    userInfo, typeEncoding=@\"NSDictionary\", ivar=_userInfo, attributes=(copy,nonatomic)
+    userVisibleRotation, typeEncoding=d, ivar=(null), attributes=(assign,nonatomi
+
+# Class Method
+
+    groupBoundsForLayers:, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16
+    groupBoundsShouldBeIntegral, typeEncoding=c16@0:8
+    groupFromLayers:, typeEncoding=@24@0:8@16
+    groupNameForLayers:, typeEncoding=@24@0:8@16
+    moveLayers:intoGroup:, typeEncoding=v32@0:8@16@24
+    setIgnoreLayerListDelegateCalls:, typeEncoding=v20@0:8c16
+    symbolIDsFromLayers:, typeEncoding=@24@0:8@16
+    traits, typeEncoding=Q16@0:8>"
+
+# Class Method With Ancestor
+
+    __allocWithZone_OA:, typeEncoding=@24@0:8^{_NSZone=}16
+    _bindingCreationDelegate, typeEncoding=@16@0:8
+    _concealBinding:, typeEncoding=v24@0:8@16
+    _copyDescription, typeEncoding=@16@0:8
+    _createMutableArrayValueGetterWithContainerClassID:key:, typeEncoding=@32@0:8@16@24
+    _createMutableOrderedSetValueGetterWithContainerClassID:key:, typeEncoding=@32@0:8@16@24
+    _createMutableSetValueGetterWithContainerClassID:key:, typeEncoding=@32@0:8@16@24
+    _createOtherValueGetterWithContainerClassID:key:, typeEncoding=@32@0:8@16@24
+    _createOtherValueSetterWithContainerClassID:key:, typeEncoding=@32@0:8@16@24
+    _createValueGetterWithContainerClassID:key:, typeEncoding=@32@0:8@16@24
+    _createValuePrimitiveGetterWithContainerClassID:key:, typeEncoding=@32@0:8@16@24
+    _createValuePrimitiveSetterWithContainerClassID:key:, typeEncoding=@32@0:8@16@24
+    _createValueSetterWithContainerClassID:key:, typeEncoding=@32@0:8@16@24
+    _exposeBinding:valueClass:, typeEncoding=v32@0:8@16#24
+    _exposedBindings, typeEncoding=@16@0:8
+    _guaranteeStorageInDictionary:addBinding:, typeEncoding=@32@0:8@16@24
+    _isDeallocating, typeEncoding=c16@0:8
+    _keysForValuesAffectingValueForKey:, typeEncoding=@24@0:8@16
+    _kitNewObjectSetVersion:, typeEncoding=v24@0:8q16
+    _localClassNameForClass, typeEncoding=r*16@0:8
+    _registerDefaultPlaceholders, typeEncoding=v16@0:8
+    _registerObjectClass:placeholder:binding:, typeEncoding=v40@0:8#16@24@32
+    _scriptingEnumeratorOfType:withDescriptor:, typeEncoding=@32@0:8@16@24
+    _scriptingValueOfComplexType:withDescriptor:, typeEncoding=@32@0:8@16@24
+    _scriptingValueOfObjectType:withDescriptor:, typeEncoding=@32@0:8@16@24
+    _scriptingValueOfOneOfAlternativeTypes:withDescriptor:, typeEncoding=@32@0:8@16@24
+    _scriptingValueOfValueType:withDescriptor:, typeEncoding=@32@0:8@16@24
+    _selectorToGetValueWithNameForKey:, typeEncoding=:24@0:8@16
+    _selectorToGetValueWithUniqueIDForKey:, typeEncoding=:24@0:8@16
+    _setBindingCreationDelegate:, typeEncoding=v24@0:8@16
+    _shouldAddObservationForwardersForKey:, typeEncoding=c24@0:8@16
+    _stateMarkerForValue:, typeEncoding=@24@0:8@16
+    _tryRetain, typeEncoding=c16@0:8
+    _webkit_invokeOnMainThread, typeEncoding=@16@0:8
+    accessInstanceVariablesDirectly, typeEncoding=c16@0:8
+    addImageOwnersInCollection:toSet:, typeEncoding=v32@0:8@16@24
+    alignLayers:toValue:forKey:, typeEncoding=v40@0:8@16d24@32
+    alignLayers:withMode:toKey:pixelFit:, typeEncoding=v44@0:8@16Q24@32c40
+    alignmentRectForLayers:, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16
+    alloc, typeEncoding=@16@0:8
+    allocWithZone:, typeEncoding=@24@0:8^{_NSZone=}16
+    allowsWeakReference, typeEncoding=c16@0:8
+    automaticallyNotifiesObserversForKey:, typeEncoding=c24@0:8@16
+    autorelease, typeEncoding=@16@0:8
+    brc_swizzleClassMethod:with:, typeEncoding=c32@0:8:16:24
+    brc_swizzleInstanceMethod:with:, typeEncoding=c32@0:8:16:24
+    CA_automaticallyNotifiesObservers:, typeEncoding=c24@0:8#16
+    CA_CAMLPropertyForKey:, typeEncoding=@24@0:8@16
+    CA_encodesPropertyConditionally:type:, typeEncoding=c24@0:8I16i20
+    CA_getterForProperty:, typeEncoding=^?24@0:8r^{_CAPropertyInfo=I[2:]b16b16*^{__CFString}}16
+    CA_setterForProperty:, typeEncoding=^?24@0:8r^{_CAPropertyInfo=I[2:]b16b16*^{__CFString}}16
+    cancelPreviousPerformRequestsWithTarget:, typeEncoding=v24@0:8@16
+    cancelPreviousPerformRequestsWithTarget:selector:object:, typeEncoding=v40@0:8@16:24@32
+    class, typeEncoding=#16@0:8
+    classFallbacksForKeyedArchiver, typeEncoding=@16@0:8
+    classForKeyedUnarchiver, typeEncoding=#16@0:8
+    clearInstanceCount, typeEncoding=v16@0:8
+    conformsToProtocol:, typeEncoding=c24@0:8@16
+    copy, typeEncoding=@16@0:8
+    copyWithZone:, typeEncoding=@24@0:8^{_NSZone=}16
+    dealloc, typeEncoding=v16@0:8
+    dealloc, typeEncoding=v16@0:8
+    debugDescription, typeEncoding=@16@0:8
+    defaultPlaceholderForMarker:withBinding:, typeEncoding=@32@0:8@16@24
+    description, typeEncoding=@16@0:8
+    description, typeEncoding=@16@0:8
+    doesNotRecognizeSelector:, typeEncoding=v24@0:8:16
+    doesNotRecognizeSelector:, typeEncoding=v24@0:8:16
+    exposeBinding:, typeEncoding=v24@0:8@16
+    finalize, typeEncoding=v16@0:8
+    finalize, typeEncoding=v16@0:8
+    flushAllKeyBindings, typeEncoding=v16@0:8
+    flushClassKeyBindings, typeEncoding=v16@0:8
+    FMLoggerFacility, typeEncoding=@16@0:8
+    forwardingTargetForSelector:, typeEncoding=@24@0:8:16
+    forwardInvocation:, typeEncoding=v24@0:8@16
+    groupBoundsForLayers:, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16
+    groupBoundsShouldBeIntegral, typeEncoding=c16@0:8
+    groupFromLayers:, typeEncoding=@24@0:8@16
+    groupNameForLayers:, typeEncoding=@24@0:8@16
+    hash, typeEncoding=Q16@0:8
+    imageHashesInCollection:, typeEncoding=@24@0:8@16
+    imageOwnersInCollection:, typeEncoding=@24@0:8@16
+    implementsSelector:, typeEncoding=c24@0:8:16
+    init, typeEncoding=@16@0:8
+    initialize, typeEncoding=v16@0:8
+    insertAttribute:intoView:anchorPosition:forFilter:settings:configuration:objectController:, typeEncoding=v72@0:8@16@24^{CGPoint=dd}32@40@48@56@64
+    instanceMethodDescriptionForSelector:, typeEncoding=^{objc_method_description=:*}24@0:8:16
+    instanceMethodForSelector:, typeEncoding=^?24@0:8:16
+    instanceMethodSignatureForSelector:, typeEncoding=@24@0:8:16
+    instanceMethodSignatureForSelector:, typeEncoding=@24@0:8:16
+    instancesImplementSelector:, typeEncoding=c24@0:8:16
+    instancesRespondToSelector:, typeEncoding=c24@0:8:16
+    isAncestorOfObject:, typeEncoding=c24@0:8@16
+    isEqual:, typeEncoding=c24@0:8@16
+    isFault, typeEncoding=c16@0:8
+    isKeyExcludedFromWebScript:, typeEncoding=c24@0:8r*16
+    isKindOfClass:, typeEncoding=c24@0:8#16
+    isMemberOfClass:, typeEncoding=c24@0:8#16
+    isProxy, typeEncoding=c16@0:8
+    isSelectorExcludedFromMochaScript:, typeEncoding=c24@0:8:16
+    isSelectorExcludedFromWebScript:, typeEncoding=c24@0:8:16
+    isSubclassOfClass:, typeEncoding=c24@0:8#16
+    keyPathsForValuesAffectingBadgeMap, typeEncoding=@16@0:8
+    keyPathsForValuesAffectingHasHighlight, typeEncoding=@16@0:8
+    keyPathsForValuesAffectingPreviewImages, typeEncoding=@16@0:8
+    keyPathsForValuesAffectingUserVisibleRotation, typeEncoding=@16@0:8
+    keyPathsForValuesAffectingValueForKey:, typeEncoding=@24@0:8@16
+    layersSeparatedByGroups:, typeEncoding=@24@0:8@16
+    load, typeEncoding=v16@0:8
+    makeLayerNamesUnique:, typeEncoding=v24@0:8@16
+    methodDescriptionForSelector:, typeEncoding=^{objc_method_description=:*}24@0:8:16
+    methodForSelector:, typeEncoding=^?24@0:8:16
+    methodSignatureForSelector:, typeEncoding=@24@0:8:16
+    methodSignatureForSelector:, typeEncoding=@24@0:8:16
+    mo_mocha, typeEncoding=@16@0:8
+    mo_swizzleAdditions, typeEncoding=v16@0:8
+    mocha, typeEncoding=@@:
+    moveLayers:intoGroup:, typeEncoding=v32@0:8@16@24
+    mutableCopy, typeEncoding=@16@0:8
+    mutableCopyWithZone:, typeEncoding=@24@0:8^{_NSZone=}16
+    new, typeEncoding=@16@0:8
+    pasteExportOptions:onLayers:, typeEncoding=v32@0:8@16@24
+    pasteStyleDict:onLayers:document:, typeEncoding=v40@0:8@16@24@32
+    pasteStyleFromPasteboard:onLayers:document:, typeEncoding=v40@0:8@16@24@32
+    pasteStyleFromPasteboardOnLayers:document:, typeEncoding=v32@0:8@16@24
+    pasteTextStyle:onLayers:, typeEncoding=v32@0:8@16@24
+    performSelector:, typeEncoding=@24@0:8:16
+    performSelector:withObject:, typeEncoding=@32@0:8:16@24
+    performSelector:withObject:withObject:, typeEncoding=@40@0:8:16@24@32
+    performWithoutUpdateEvents:, typeEncoding=v24@0:8@?16
+    poseAsClass:, typeEncoding=v24@0:8#16
+    printInstanceCount:, typeEncoding=v24@0:8@16
+    release, typeEncoding=Vv16@0:8
+    replacementObjectForPortCoder:, typeEncoding=@24@0:8@16
+    resolveClassMethod:, typeEncoding=c24@0:8:16
+    resolveInstanceMethod:, typeEncoding=c24@0:8:16
+    respondsToSelector:, typeEncoding=c24@0:8:16
+    retain, typeEncoding=@16@0:8
+    retainCount, typeEncoding=Q16@0:8
+    retainWeakReference, typeEncoding=c16@0:8
+    selectorForMochaPropertyName:, typeEncoding=:24@0:8@16
+    self, typeEncoding=@16@0:8
+    setDefaultPlaceholder:forMarker:withBinding:, typeEncoding=v40@0:8@16@24@32
+    setIgnoreLayerListDelegateCalls:, typeEncoding=v20@0:8c16
+    setKeys:triggerChangeNotificationsForDependentKey:, typeEncoding=v32@0:8@16@24
+    setVersion:, typeEncoding=v24@0:8q16
+    superclass, typeEncoding=#16@0:8
+    supportedPasteboardTypesForStyleCopying, typeEncoding=@16@0:8
+    symbolIDsFromLayers:, typeEncoding=@24@0:8@16
+    traits, typeEncoding=Q16@0:8
+    traits, typeEncoding=Q16@0:8
+    traits, typeEncoding=Q16@0:8
+    useStoredAccessor, typeEncoding=c16@0:8
+    version, typeEncoding=q16@0:8
+    zone, typeEncoding=^{_NSZone=}16@0:8
+
+# instance Method
+
+    .cxx_destruct, typeEncoding=v16@0:8
+    addChildrenToElement:exporter:, typeEncoding=v32@0:8@16@24
+    addContentToElement:attributes:exporter:action:, typeEncoding=@48@0:8@16@24@32^Q40
+    addLayerOfType:, typeEncoding=@24@0:8@16
+    addLayers:, typeEncoding=v24@0:8@16
+    addSlice:, typeEncoding=v24@0:8@16
+    allLayersWithForcedClickThrough:, typeEncoding=@20@0:8c16
+    assignWithOriginalLinkedStyleIfNecessary, typeEncoding=v16@0:8
+    bezierPath, typeEncoding=@16@0:8
+    calculateHasBlendedLayer, typeEncoding=c16@0:8
+    calculateInfluenceRectForBounds, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    canBeUsedAsSymbolDirectly, typeEncoding=c16@0:8
+    canContainLayer:, typeEncoding=c24@0:8@16
+    candidatesForMasking, typeEncoding=@16@0:8
+    canSnapSizeToLayer:, typeEncoding=c24@0:8@16
+    changeLayerExpandedTypeToAutomaticIfCollapsed, typeEncoding=v16@0:8
+    children, typeEncoding=@16@0:8
+    closestSymbolInstance, typeEncoding=@16@0:8
+    containedLayers, typeEncoding=@16@0:8
+    containedLayersCount, typeEncoding=Q16@0:8
+    containsLayers, typeEncoding=c16@0:8
+    containsMultipleLayers, typeEncoding=c16@0:8
+    containsNoOrOneLayers, typeEncoding=c16@0:8
+    containsOneLayer, typeEncoding=c16@0:8
+    containsSelectedItem, typeEncoding=c16@0:8
+    containsSymbols, typeEncoding=c16@0:8
+    CSSAttributeString, typeEncoding=@16@0:8
+    dataArray:didAddObject:, typeEncoding=v32@0:8@16@24
+    dataArray:didRemoveObject:, typeEncoding=v32@0:8@16@24
+    dataArray:willRemoveObject:, typeEncoding=v32@0:8@16@24
+    defaultName, typeEncoding=@16@0:8
+    defaultStyle, typeEncoding=@16@0:8
+    deselectAllLayers, typeEncoding=v16@0:8
+    deselectLayerAndParent, typeEncoding=v16@0:8
+    drawHoverWithZoom:, typeEncoding=v24@0:8d16
+    drawPreviewInRect:selected:, typeEncoding=v52@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16c48
+    enableAutomaticScaling, typeEncoding=c16@0:8
+    enumerateLayers:, typeEncoding=v24@0:8@?16
+    enumerateLayersWithOptions:block:, typeEncoding=c32@0:8Q16@?24
+    expandableInLayerList, typeEncoding=c16@0:8
+    firstLayer, typeEncoding=@16@0:8
+    handleDoubleClick, typeEncoding=c16@0:8
+    handlerName, typeEncoding=@16@0:8
+    hasClickThrough, typeEncoding=c16@0:8
+    hasLayerWithMaskMode, typeEncoding=q16@0:8
+    hitTestCornerOfSelectedLayer:mouse:zoomValue:, typeEncoding=c48@0:8@16{CGPoint=dd}24d40
+    ignoreNextSymbolSyncChange, typeEncoding=c16@0:8
+    includeChildrenInCalculatingStyleSize, typeEncoding=c16@0:8
+    includeInLayersBelowPoint, typeEncoding=c16@0:8
+    indexOfLayer:, typeEncoding=Q24@0:8@16
+    initEmptyObject, typeEncoding=v16@0:8
+    insertLayers:afterLayer:, typeEncoding=v32@0:8@16@24
+    insertLayers:atIndex:, typeEncoding=v32@0:8@16Q24
+    insertLayers:beforeLayer:, typeEncoding=v32@0:8@16@24
+    inspectorViewControllerNames, typeEncoding=@16@0:8
+    invalidateLightweightCopy:, typeEncoding=v24@0:8@16
+    isActualSymbol, typeEncoding=c16@0:8
+    isEqualForSync:asPartOfSymbol:, typeEncoding=c32@0:8@16@24
+    isExpanded, typeEncoding=c16@0:8
+    isInstanceOfSameSymbolAs:, typeEncoding=c24@0:8@16
+    isOpen, typeEncoding=c16@0:8
+    isOpenForFindingAllLayers:, typeEncoding=c20@0:8c16
+    isSharedObject, typeEncoding=c16@0:8
+    isSymbol, typeEncoding=c16@0:8
+    lastLayer, typeEncoding=@16@0:8
+    layerAtIndex:, typeEncoding=@24@0:8Q16
+    layerFinishedResize, typeEncoding=v16@0:8
+    layersBelowPoint:forceClickThrough:keepLockedLayers:zoomValue:, typeEncoding=@48@0:8{CGPoint=dd}16c32c36d40
+    layersSharingStyle:, typeEncoding=@24@0:8@16
+    layerWillResize, typeEncoding=v16@0:8
+    layerWithID:, typeEncoding=@24@0:8@16
+    lightweightContainsSelectedItem, typeEncoding=c16@0:8
+    markLayerDirtyOfType:, typeEncoding=v24@0:8Q16
+    moveInLayerTreeInBlock:, typeEncoding=v24@0:8@?16
+    moveLayersToParent, typeEncoding=@16@0:8
+    moveTransformsToChildren:, typeEncoding=v24@0:8@16
+    multiplyBy:, typeEncoding=v24@0:8d16
+    objectDidInit, typeEncoding=v16@0:8
+    parentGroupRecursive, typeEncoding=@16@0:8
+    parentOrSelfIsSymbol, typeEncoding=c16@0:8
+    parentOrSelfIsSymbolWithID:, typeEncoding=c24@0:8@16
+    preCalculatedHasSelectedLayer, typeEncoding=q16@0:8
+    prepareAsMaskContainer, typeEncoding=v16@0:8
+    prepareObjectCopy:, typeEncoding=v24@0:8@16
+    rectDidChange:fromRect:, typeEncoding=v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24
+    refreshOfType:rect:, typeEncoding=v56@0:8Q16{CGRect={CGPoint=dd}{CGSize=dd}}24
+    relativeChildFrames, typeEncoding=@16@0:8
+    removeAllLayers, typeEncoding=v16@0:8
+    removeLayer:, typeEncoding=v24@0:8@16
+    removeLayerAtIndex:, typeEncoding=v24@0:8Q16
+    rendererClass, typeEncoding=#16@0:8
+    replaceLayersWithLayers:, typeEncoding=v24@0:8@16
+    requiredRect, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    resizeChildLayer:atIndex:oldParentSize:widthChanged:heightChanged:, typeEncoding=v56@0:8@16Q24{CGSize=dd}32c48c52
+    resizeRoot:, typeEncoding=c20@0:8c16
+    selectLayers:, typeEncoding=v24@0:8@16
+    setConstrainProportions:, typeEncoding=v20@0:8c16
+    setEnableAutomaticScaling:, typeEncoding=v20@0:8c16
+    setHasLayerWithMaskMode:, typeEncoding=v24@0:8q16
+    setIgnoreNextSymbolSyncChange:, typeEncoding=v20@0:8c16
+    setIsHovering:, typeEncoding=v20@0:8c16
+    setIsLocked:, typeEncoding=v20@0:8c16
+    setIsOpen:, typeEncoding=v20@0:8c16
+    setIsSelected:, typeEncoding=v20@0:8c16
+    setLayers:, typeEncoding=v24@0:8@16
+    setLightweightContainsSelectedItem:, typeEncoding=v20@0:8c16
+    setPreCalculatedHasSelectedLayer:, typeEncoding=v24@0:8q16
+    setRelativeChildFrames:, typeEncoding=v24@0:8@16
+    setStyle:, typeEncoding=v24@0:8@16
+    setUpNewGroup, typeEncoding=v16@0:8
+    sharedObjectOfType:, typeEncoding=@24@0:8Q16
+    shouldClickThroughMouse:force:zoomValue:, typeEncoding=c44@0:8{CGPoint=dd}16c32d36
+    shouldDraw, typeEncoding=Q16@0:8
+    shouldStripShadowsAndInnerShadow, typeEncoding=c16@0:8
+    translateChildrenFrameToLayers:, typeEncoding=v24@0:8@16
+    type, typeEncoding=Q16@0:8
+    ungroup, typeEncoding=@16@0:8
+    unregisterAsSymbolIfNecessary, typeEncoding=v16@0:8
+    wouldInsertSymbolIntoItself:, typeEncoding=c24@0:8@16
+
+# Instance Methods with Ancestors
+
+    ___tryRetain_OA, typeEncoding=c16@0:8
+    __autorelease_OA, typeEncoding=@16@0:8
+    __becomeACNZombie, typeEncoding=c16@0:8
+    __canBecomeCNZombie, typeEncoding=c16@0:8
+    __dealloc_zombie, typeEncoding=v16@0:8
+    __gatherCNZombieRRStack, typeEncoding=v16@0:8
+    __release_OA, typeEncoding=Vv16@0:8
+    __retain_OA, typeEncoding=@16@0:8
+    __saveCNZombieRRStacks, typeEncoding=v16@0:8
+    _abCompare:ascending:options:, typeEncoding=q36@0:8@16c24Q28
+    _abCompareContainsSubString:options:, typeEncoding=c32@0:8@16Q24
+    _abCompareNotWithinIntervalAroundToday:, typeEncoding=c24@0:8@16
+    _abCompareNotWithinIntervalAroundTodayYearless:, typeEncoding=c24@0:8@16
+    _abCompareNotWithinIntervalFromToday:, typeEncoding=c24@0:8@16
+    _abCompareNotWithinIntervalFromTodayYearless:, typeEncoding=c24@0:8@16
+    _abComparePrefixMatch:options:, typeEncoding=c32@0:8@16Q24
+    _abCompareSuffixMatch:options:, typeEncoding=c32@0:8@16Q24
+    _abCompareWithinIntervalAroundToday:, typeEncoding=c24@0:8@16
+    _abCompareWithinIntervalAroundTodayYearless:, typeEncoding=c24@0:8@16
+    _abCompareWithinIntervalFromToday:, typeEncoding=c24@0:8@16
+    _abCompareWithinIntervalFromTodayYearless:, typeEncoding=c24@0:8@16
+    _accessibilityArrayAttributeCount:clientError:, typeEncoding=Q32@0:8@16^i24
+    _accessibilityArrayAttributeValues:index:maxCount:clientError:, typeEncoding=@48@0:8@16Q24Q32^i40
+    _accessibilityAttributeNamesClientError:, typeEncoding=@24@0:8^i16
+    _accessibilityCanSetValueForAttribute:clientError:, typeEncoding=c32@0:8@16^i24
+    _accessibilityChildUIElementForSpecifierComponent:, typeEncoding=@24@0:8q16
+    _accessibilityIndexOfChild:clientError:, typeEncoding=Q32@0:8@16^i24
+    _accessibilityIsTableViewDescendant, typeEncoding=c16@0:8
+    _accessibilitySetOverrideValue:forAttribute:, typeEncoding=c32@0:8@16@24
+    _accessibilitySpecifierComponentForChildUIElement:registerIfNeeded:, typeEncoding=q28@0:8@16c24
+    _accessibilityUIElementSpecifier, typeEncoding=@16@0:8
+    _accessibilityUIElementSpecifierForChild:registerIfNeeded:, typeEncoding=@28@0:8@16c24
+    _accessibilityUIElementSpecifierRegisterIfNeeded:, typeEncoding=@20@0:8c16
+    _accessibilityValueForAttribute:clientError:, typeEncoding=@32@0:8@16^i24
+    _addObserver:forProperty:options:context:, typeEncoding=v48@0:8@16@24Q32^v40
+    _addOptionValue:toArray:withKey:type:, typeEncoding=v48@0:8@16@24@32Q40
+    _addPlaceholderOptionValue:isDefault:toArray:withKey:binder:binding:, typeEncoding=v60@0:8@16c24@28@36@44@52
+    _allowsDirectEncoding, typeEncoding=c16@0:8
+    _asScriptTerminologyNameArray, typeEncoding=@16@0:8
+    _asScriptTerminologyNameString, typeEncoding=@16@0:8
+    _bind:toController:withKeyPath:valueTransformerName:options:existingNibConnectors:connectorsToRemove:connectorsToAdd:, typeEncoding=v80@0:8@16@24@32@40@48@56@64@72
+    _binderClassForBinding:withBinders:, typeEncoding=#32@0:8@16@24
+    _binderForBinding:withBinders:createAutoreleasedInstanceIfNotFound:, typeEncoding=@36@0:8@16@24c32
+    _binderWithClass:withBinders:createAutoreleasedInstanceIfNotFound:, typeEncoding=@36@0:8#16@24c32
+    _bindingAdaptor, typeEncoding=@16@0:8
+    _bindingInformationWithExistingNibConnectors:availableControllerChoices:, typeEncoding=@32@0:8@16@24
+    _cfTypeID, typeEncoding=Q16@0:8
+    _changeValueForKey:key:key:usingBlock:, typeEncoding=v48@0:8@16@24@32@?40
+    _changeValueForKey:usingBlock:, typeEncoding=v32@0:8@16@?24
+    _cleanupBindingsWithExistingNibConnectors:exception:, typeEncoding=v32@0:8@16@24
+    _compatibility_takeValue:forKey:, typeEncoding=v32@0:8@16@24
+    _conformsToProtocolNamed:, typeEncoding=c24@0:8r*16
+    _copyDescription, typeEncoding=@16@0:8
+    _createKeyValueBindingForKey:name:bindingType:, typeEncoding=@40@0:8@16r*24Q32
+    _didChangeValuesForKeys:, typeEncoding=v24@0:8@16
+    _implicitObservationInfo, typeEncoding=@16@0:8
+    _invokeSelector:withArguments:onKeyPath:, typeEncoding=v40@0:8:16@24@32
+    _isAccessibilityCandidateForSection:, typeEncoding=c24@0:8@16
+    _isAccessibilityContainerSectionCandidate, typeEncoding=c16@0:8
+    _isAccessibilityContentNavigatorSectionCandidate, typeEncoding=c16@0:8
+    _isAccessibilityContentSectionCandidate, typeEncoding=c16@0:8
+    _isAccessibilityTopLevelNavigatorSectionCandidate, typeEncoding=c16@0:8
+    _isAXConnector, typeEncoding=c16@0:8
+    _isDeallocating, typeEncoding=c16@0:8
+    _isKVOA, typeEncoding=c16@0:8
+    _isToManyChangeInformation, typeEncoding=c16@0:8
+    _localClassNameForClass, typeEncoding=r*16@0:8
+    _notifyObserversForKeyPath:change:, typeEncoding=v32@0:8@16@24
+    _observerStorage, typeEncoding=^@16@0:8
+    _oldValueForKey:, typeEncoding=@24@0:8@16
+    _oldValueForKeyPath:, typeEncoding=@24@0:8@16
+    _optionDescriptionsForBinding:, typeEncoding=@24@0:8@16
+    _pendingChangeNotificationsArrayForKey:create:, typeEncoding=@28@0:8@16c24
+    _placeSuggestionsInDictionary:acceptableControllers:boundBinders:binder:binding:, typeEncoding=v56@0:8@16@24@32@40@48
+    _ql_waitForKey:toBeEqualTo:, typeEncoding=v32@0:8@16@24
+    _ql_waitForKey:toBeEqualTo:timeout:, typeEncoding=c40@0:8@16@24d32
+    _receiveBox:, typeEncoding=v24@0:8@16
+    _releaseBindingAdaptor, typeEncoding=v16@0:8
+    _removeObserver:forProperty:, typeEncoding=v32@0:8@16@24
+    _scriptingAddObjectsFromArray:toValueForKey:, typeEncoding=@32@0:8@16@24
+    _scriptingAddObjectsFromSet:toValueForKey:, typeEncoding=@32@0:8@16@24
+    _scriptingAddToReceiversArray:, typeEncoding=v24@0:8@16
+    _scriptingAlternativeValueRankWithDescriptor:, typeEncoding=i24@0:8@16
+    _scriptingArrayOfObjectsForSpecifier:, typeEncoding=@24@0:8@16
+    _scriptingCanAddObjectsToValueForKey:, typeEncoding=c24@0:8@16
+    _scriptingCanHandleCommand:, typeEncoding=c24@0:8@16
+    _scriptingCanInsertBeforeOrReplaceObjectsAtIndexes:inValueForKey:, typeEncoding=c32@0:8@16@24
+    _scriptingCanSetValue:forSpecifier:, typeEncoding=c32@0:8@16@24
+    _scriptingCoerceValue:forKey:, typeEncoding=@32@0:8@16@24
+    _scriptingCopyWithProperties:forValueForKey:ofContainer:, typeEncoding=@40@0:8@16@24@32
+    _scriptingCount, typeEncoding=Q16@0:8
+    _scriptingCountNonrecursively, typeEncoding=Q16@0:8
+    _scriptingCountOfValueForKey:, typeEncoding=Q24@0:8@16
+    _scriptingDebugDescription, typeEncoding=@16@0:8
+    _scriptingDescriptorOfComplexType:orReasonWhyNot:, typeEncoding=@32@0:8@16^@24
+    _scriptingDescriptorOfEnumeratorType:orReasonWhyNot:, typeEncoding=@32@0:8@16^@24
+    _scriptingDescriptorOfObjectType:orReasonWhyNot:, typeEncoding=@32@0:8@16^@24
+    _scriptingDescriptorOfValueType:orReasonWhyNot:, typeEncoding=@32@0:8@16^@24
+    _scriptingExists, typeEncoding=c16@0:8
+    _scriptingIndexesOfObjectsForSpecifier:, typeEncoding=@24@0:8@16
+    _scriptingIndexOfObjectForSpecifier:, typeEncoding=Q24@0:8@16
+    _scriptingIndexOfObjectWithName:inValueForKey:, typeEncoding=Q32@0:8@16@24
+    _scriptingIndexOfObjectWithUniqueID:inValueForKey:, typeEncoding=Q32@0:8@16@24
+    _scriptingIndicesOfObjectsAfterValidatingSpecifier:, typeEncoding=@24@0:8@16
+    _scriptingIndicesOfObjectsForSpecifier:count:, typeEncoding=^q32@0:8@16^q24
+    _scriptingInsertObject:inValueForKey:, typeEncoding=@32@0:8@16@24
+    _scriptingInsertObjects:atIndexes:inValueForKey:, typeEncoding=@40@0:8@16@24@32
+    _scriptingMightHandleCommand:, typeEncoding=c24@0:8@16
+    _scriptingObjectAtIndex:inValueForKey:, typeEncoding=@32@0:8Q16@24
+    _scriptingObjectCountInValueForKey:, typeEncoding=Q24@0:8@16
+    _scriptingObjectForSpecifier:, typeEncoding=@24@0:8@16
+    _scriptingObjectsAtIndexes:inValueForKey:, typeEncoding=@32@0:8@16@24
+    _scriptingObjectWithName:inValueForKey:, typeEncoding=@32@0:8@16@24
+    _scriptingObjectWithUniqueID:inValueForKey:, typeEncoding=@32@0:8@16@24
+    _scriptingRemoveAllObjectsFromValueForKey:, typeEncoding=v24@0:8@16
+    _scriptingRemoveObjectsAtIndexes:fromValueForKey:, typeEncoding=v32@0:8@16@24
+    _scriptingRemoveValueForSpecifier:, typeEncoding=v24@0:8@16
+    _scriptingReplaceObjectAtIndex:withObjects:inValueForKey:, typeEncoding=@40@0:8Q16@24@32
+    _scriptingSetOfObjectsForSpecifier:, typeEncoding=@24@0:8@16
+    _scriptingSetValue:forKey:, typeEncoding=@32@0:8@16@24
+    _scriptingSetValue:forSpecifier:, typeEncoding=@32@0:8@16@24
+    _scriptingShouldCheckObjectIndexes, typeEncoding=c16@0:8
+    _scriptingValueForKey:, typeEncoding=@24@0:8@16
+    _scriptingValueForSpecifier:, typeEncoding=@24@0:8@16
+    _setBindingAdaptor:, typeEncoding=v24@0:8@16
+    _setObject:forBothSidesOfRelationshipWithKey:, typeEncoding=v32@0:8@16@24
+    _shouldSearchChildrenForSection, typeEncoding=c16@0:8
+    _suggestedControllerKeyForController:binding:, typeEncoding=@32@0:8@16@24
+    _supportsGetValueWithNameForKey:perhapsByOverridingClass:, typeEncoding=q32@0:8@16#24
+    _supportsGetValueWithUniqueIDForKey:perhapsByOverridingClass:, typeEncoding=q32@0:8@16#24
+    _tryRetain, typeEncoding=c16@0:8
+    _unbind:existingNibConnectors:connectorsToRemove:connectorsToAdd:, typeEncoding=v48@0:8@16@24@32@40
+    _viewIdentifier, typeEncoding=@16@0:8
+    _webkit_invokeOnMainThread, typeEncoding=@16@0:8
+    _willChangeValuesForKeys:, typeEncoding=v24@0:8@16
+    abCaseInsensitiveIsEqual:, typeEncoding=c24@0:8@16
+    abDictionaryWithValuesForKeyPaths:, typeEncoding=@24@0:8@16
+    abRemoveObserverIgnoringExceptions:forKeyPath:, typeEncoding=v32@0:8@16@24
+    absoluteDirtyRect, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    absoluteInfluenceRect, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    absolutePosition, typeEncoding={CGPoint=dd}16@0:8
+    absoluteRect, typeEncoding=@16@0:8
+    accessibilityAddTemporaryChild:, typeEncoding=v24@0:8@16
+    accessibilityAllowsOverriddenAttributesWhenIgnored, typeEncoding=c16@0:8
+    accessibilityArrayAttributeCount:, typeEncoding=Q24@0:8@16
+    accessibilityArrayAttributeValues:index:maxCount:, typeEncoding=@40@0:8@16Q24Q32
+    accessibilityAttributedValueForStringAttributeAttributeForParameter:, typeEncoding=@24@0:8@16
+    accessibilityAttributeValue:forParameter:, typeEncoding=@32@0:8@16@24
+    accessibilityDecodeOverriddenAttributes:, typeEncoding=v24@0:8@16
+    accessibilityEncodeOverriddenAttributes:, typeEncoding=v24@0:8@16
+    accessibilityIndexForChildUIElementAttributeForParameter:, typeEncoding=@24@0:8@16
+    accessibilityIndexOfChild:, typeEncoding=Q24@0:8@16
+    accessibilityOverriddenAttributes, typeEncoding=@16@0:8
+    accessibilityParameterizedAttributeNames, typeEncoding=@16@0:8
+    accessibilityPerformShowMenuOfChild:, typeEncoding=c24@0:8@16
+    accessibilityPresenterProcessIdentifier, typeEncoding=i16@0:8
+    accessibilityRemoveTemporaryChild:, typeEncoding=v24@0:8@16
+    accessibilitySetOverrideValue:forAttribute:, typeEncoding=c32@0:8@16@24
+    accessibilitySetPresenterProcessIdentifier:, typeEncoding=v20@0:8i16
+    accessibilityShouldSendNotification:, typeEncoding=c24@0:8@16
+    accessibilityShouldUseUniqueId, typeEncoding=c16@0:8
+    accessibilitySupportsNotifications, typeEncoding=c16@0:8
+    accessibilitySupportsOverriddenAttributes, typeEncoding=c16@0:8
+    accessibilityTemporaryChildren, typeEncoding=@16@0:8
+    accessibilityVisibleArea, typeEncoding=d16@0:8
+    addBadgeImageNamed:toMap:withKey:, typeEncoding=v40@0:8@16@24@32
+    addChainedObservers:, typeEncoding=@24@0:8@16
+    addChildrenToElement:exporter:, typeEncoding=v32@0:8@16@24
+    addChildrenToElement:exporter:, typeEncoding=v32@0:8@16@24
+    addContentToElement:attributes:exporter:action:, typeEncoding=@48@0:8@16@24@32^Q40
+    addContentToElement:attributes:exporter:action:, typeEncoding=@48@0:8@16@24@32^Q40
+    addGradientsToDocument:, typeEncoding=v24@0:8@16
+    addGradientsToDocument:, typeEncoding=v24@0:8@16
+    addImageOwnersToSet:, typeEncoding=v24@0:8@16
+    addImageOwnersToSet:, typeEncoding=v24@0:8@16
+    addLayerOfType:, typeEncoding=@24@0:8@16
+    addLayers:, typeEncoding=v24@0:8@16
+    addLayers:, typeEncoding=v24@0:8@16
+    addObject:toBothSidesOfRelationshipWithKey:, typeEncoding=v32@0:8@16@24
+    addObject:toPropertyWithKey:, typeEncoding=v32@0:8@16@24
+    addObservationTransformer:, typeEncoding=@24@0:8@?16
+    addObserver:, typeEncoding=@24@0:8@16
+    addObserver:forKeyPath:options:context:, typeEncoding=v48@0:8@16@24Q32^v40
+    addObserver:forKeyPaths:options:context:, typeEncoding=v48@0:8@16@24Q32^v40
+    addObserver:forObservableKeyPath:, typeEncoding=@32@0:8@16@24
+    addObserverBlock:, typeEncoding=@24@0:8@?16
+    addSlice:, typeEncoding=v24@0:8@16
+    addSVGAttributes:forExporter:, typeEncoding=v32@0:8@16@24
+    addSVGAttributes:forExporter:, typeEncoding=v32@0:8@16@24
+    allLayersWithForcedClickThrough:, typeEncoding=@20@0:8c16
+    allLayersWithForcedClickThrough:, typeEncoding=@20@0:8c16
+    allocateMigrationListForClass:, typeEncoding=^:24@0:8#16
+    allowsWeakReference, typeEncoding=c16@0:8
+    allPropertyKeys, typeEncoding=@16@0:8
+    ancestors, typeEncoding=@16@0:8
+    ancestorTransforms, typeEncoding=@16@0:8
+    appendBaseTranslation:exporter:, typeEncoding=v32@0:8@16@24
+    appendSimpleStructureToString:withIndent:, typeEncoding=v32@0:8@16Q24
+    appendTreeStructureToString:withIndent:, typeEncoding=v32@0:8@16Q24
+    assignWithOriginalLinkedStyleIfNecessary, typeEncoding=v16@0:8
+    assignWithOriginalLinkedStyleIfNecessary, typeEncoding=v16@0:8
+    attributeKeys, typeEncoding=@16@0:8
+    autoContentAccessingProxy, typeEncoding=@16@0:8
+    autorelease, typeEncoding=@16@0:8
+    awakeAfterUsingCoder:, typeEncoding=@24@0:8@16
+    awakeFromNib, typeEncoding=v16@0:8
+    badgeMap, typeEncoding=@16@0:8
+    badgeMapWithBaseName:, typeEncoding=@24@0:8@16
+    badgeMenu, typeEncoding=@16@0:8
+    badgeNameLookup, typeEncoding=@16@0:8
+    bezierPath, typeEncoding=@16@0:8
+    bezierPath, typeEncoding=@16@0:8
+    bezierPathForHover, typeEncoding=@16@0:8
+    bezierPathWithTransforms, typeEncoding=@16@0:8
+    bind:toObject:withKeyPath:options:, typeEncoding=v48@0:8@16@24@32@40
+    booleanOperationCanBeReset, typeEncoding=c16@0:8
+    bounds, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    boundsRect, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    breakConnectionWith:, typeEncoding=v24@0:8@16
+    breakConnectionWith:, typeEncoding=v24@0:8@16
+    CA_addValue:multipliedBy:, typeEncoding=@28@0:8@16i24
+    CA_copyRenderValue, typeEncoding=^{Object=^^?{Atomic={?=i}}}16@0:8
+    CA_distanceToValue:, typeEncoding=d24@0:8@16
+    CA_interpolateValue:byFraction:, typeEncoding=@28@0:8@16f24
+    CA_interpolateValues:::interpolator:, typeEncoding=@48@0:8@16@24@32r^{ValueInterpolator=dddddddddB}40
+    CA_prepareRenderValue, typeEncoding=v16@0:8
+    CA_roundToIntegerFromValue:, typeEncoding=@24@0:8@16
+    cachedImage, typeEncoding=@16@0:8
+    cachedImageSetUsingBlock:, typeEncoding=@24@0:8@?16
+    cachedImmutableModelObject, typeEncoding=@16@0:8
+    cachedInfluenceRectForBounds, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    cachedValueForKey:, typeEncoding=@24@0:8@16
+    cachedValueForKey:setUsingBlock:, typeEncoding=@32@0:8@16@?24
+    calculateHasBlendedLayer, typeEncoding=c16@0:8
+    calculateHasBlendedLayer, typeEncoding=c16@0:8
+    calculateHasBlendedLayer, typeEncoding=c16@0:8
+    calculateInfluenceRectForBounds, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    calculateInfluenceRectForBounds, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    calculateProportions, typeEncoding=v16@0:8
+    CAMLType, typeEncoding=@16@0:8
+    CAMLTypeForKey:, typeEncoding=@24@0:8@16
+    canBeContainedByDocument, typeEncoding=c16@0:8
+    canBeContainedByGroup, typeEncoding=c16@0:8
+    canBeHidden, typeEncoding=c16@0:8
+    canBeHovered, typeEncoding=c16@0:8
+    canBePartOfSymbol, typeEncoding=c16@0:8
+    canBeSelectedOnCanvas, typeEncoding=c16@0:8
+    canBeTransformed, typeEncoding=c16@0:8
+    canBeUsedAsSymbolDirectly, typeEncoding=c16@0:8
+    canBeUsedAsSymbolDirectly, typeEncoding=c16@0:8
+    canContainLayer:, typeEncoding=c24@0:8@16
+    canContainLayer:, typeEncoding=c24@0:8@16
+    canCopyToLayer:beforeLayer:, typeEncoding=c32@0:8@16@24
+    candidatesForMasking, typeEncoding=@16@0:8
+    candidatesForMasking, typeEncoding=@16@0:8
+    canFlatten, typeEncoding=c16@0:8
+    canMoveToLayer:beforeLayer:, typeEncoding=c32@0:8@16@24
+    canRenderWithCGLContext:, typeEncoding=c24@0
+    canRotate, typeEncoding=c16@0:8
+    canSmartRotate, typeEncoding=c16@0:8
+    canSnapSizeToLayer:, typeEncoding=c24@0:8@16
+    canSnapSizeToLayer:, typeEncoding=c24@0:8@16
+    canSnapToLayer:, typeEncoding=c24@0:8@16
+    canSplitPaths, typeEncoding=c16@0:8
+    CGTransformForFrame, typeEncoding={CGAffineTransform=dddddd}16@0:8
+    changeColor:, typeEncoding=v24@0:8@16
+    changeColor:, typeEncoding=v24@0:8@16
+    changeKey:inBlock:, typeEncoding=v32@0:8@16@?24
+    changeLayerExpandedTypeToAutomaticIfCollapsed, typeEncoding=v16@0:8
+    childDidChangeNotification:, typeEncoding=v24@0:8@16
+    children, typeEncoding=@16@0:8
+    children, typeEncoding=@16@0:8
+    CKAssignToContainerWithID:, typeEncoding=v24@0:8@16
+    CKDescription, typeEncoding=@16@0:8
+    CKPropertiesDescription, typeEncoding=@16@0:8
+    class, typeEncoding=#16@0:8
+    classCode, typeEncoding=I16@0:8
+    classDescription, typeEncoding=@16@0:8
+    classDescriptionForDestinationKey:, typeEncoding=@24@0:8@16
+    classForArchiver, typeEncoding=#16@0:8
+    classForCoder, typeEncoding=#16@0:8
+    classForKeyedArchiver, typeEncoding=#16@0:8
+    classForPortCoder, typeEncoding=#16@0:8
+    className, typeEncoding=@16@0:8
+    classToUseForNameCounter, typeEncoding=#16@0:8
+    clearCache, typeEncoding=v16@0:8
+    clearCachedImage, typeEncoding=v16@0:8
+    clearCachedValueForKey:, typeEncoding=v24@0:8@16
+    clearInfluenceCache, typeEncoding=v16@0:8
+    clearProperties, typeEncoding=v16@0:8
+    closePath, typeEncoding=c16@0:8
+    closestClippingLayer, typeEncoding=@16@0:8
+    closestSymbolInstance, typeEncoding=@16@0:8
+    closestSymbolInstance, typeEncoding=@16@0:8
+    coerceValue:forKey:, typeEncoding=@32@0:8@16@24
+    coerceValueForScriptingProperties:, typeEncoding=@24@0:8@16
+    colorForHover, typeEncoding=@16@0:8
+    compositionParameterView:didChangeParameterWithKey:, typeEncoding=v32@0:8@16@24
+    compositionParameterView:shouldDisplayParameterWithKey:attributes:, typeEncoding=c40@0:8@16@24@32
+    compositionPickerView:didLoadComposition:, typeEncoding=v32@0:8@16@24
+    compositionPickerView:didSelectComposition:, typeEncoding=v32@0:8@16@24
+    compositionPickerView:draggingEnteredComposition:sender:, typeEncoding=Q40@0:8@16@24@32
+    compositionPickerView:keyDown:, typeEncoding=c32@0:8@16@24
+    compositionPickerView:performDragOperationOnComposition:sender:, typeEncoding=c40@0:8@16@24@32
+    compositionPickerView:willSelectComposition:, typeEncoding=v32@0:8@16@24
+    compositionPickerViewDidStartAnimating:, typeEncoding=v24@0:8@16
+    compositionPickerViewWillStopAnimating:, typeEncoding=v24@0:8@16
+    concatAncestorTransforms, typeEncoding=v16@0:8
+    conformsToProtocol:, typeEncoding=c24@0:8@16
+    constrainProportions, typeEncoding=c16@0:8
+    containedLayers, typeEncoding=@16@0:8
+    containedLayers, typeEncoding=@16@0:8
+    containedLayersCount, typeEncoding=Q16@0:8
+    containedLayersCount, typeEncoding=Q16@0:8
+    containsLayers, typeEncoding=c16@0:8
+    containsLayers, typeEncoding=c16@0:8
+    containsMultipleLayers, typeEncoding=c16@0:8
+    containsMultipleLayers, typeEncoding=c16@0:8
+    containsNoOrOneLayers, typeEncoding=c16@0:8
+    containsNoOrOneLayers, typeEncoding=c16@0:8
+    containsOneLayer, typeEncoding=c16@0:8
+    containsOneLayer, typeEncoding=c16@0:8
+    containsSelectedItem, typeEncoding=c16@0:8
+    containsSelectedItem, typeEncoding=c16@0:8
+    containsSymbols, typeEncoding=c16@0:8
+    containsSymbols, typeEncoding=c16@0:8
+    convertPointFromParentRoot:, typeEncoding={CGPoint=dd}32@0:8{CGPoint=dd}16
+    convertPointToAbsoluteCoordinates:, typeEncoding={CGPoint=dd}32@0:8{CGPoint=dd}16
+    convertPointToLayerCoordinates:, typeEncoding={CGPoint=dd}32@0:8{CGPoint=dd}16
+    convertPointToParentRoot:, typeEncoding={CGPoint=dd}32@0:8{CGPoint=dd}16
+    convertRectToAbsoluteCoordinates:, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    copiedStyleAttributesForLayer:, typeEncoding=@24@0:8@16
+    copy, typeEncoding=@16@0:8
+    copyEmpty, typeEncoding=@16@0:8
+    copyIncludingObjectIDS, typeEncoding=@16@0:8
+    copyIncludingObjectIDS, typeEncoding=@16@0:8
+    copyLightweight, typeEncoding=@16@0:8
+    copyLightweight, typeEncoding=@16@0:8
+    copyPropertiesToObjectCopy:, typeEncoding=v24@0:8@16
+    copyPropertiesToObjectCopy:, typeEncoding=v24@0:8@16
+    copyPropertiesToObjectCopy:, typeEncoding=v24@0:8@16
+    copyPropertiesToObjectCopy:, typeEncoding=v24@0:8@16
+    copyRenderedTextureForCGLContext:pixelFormat:bounds:isFlipped
+    copyScriptingValue:forKey:withProperties:, typeEncoding=@40@0:8@16@24@32
+    copyStyleToPasteboard, typeEncoding=@16@0:8
+    copyStyleToPasteboard:, typeEncoding=v24@0:8@16
+    copyToLayer:beforeLayer:, typeEncoding=v32@0:8@16@24
+    copyWithZone:, typeEncoding=@24@0:8^{_NSZone=}16
+    copyWithZone:, typeEncoding=@24@0:8^{_NSZone=}16
+    createImageWithOptions:, typeEncoding=@24@0:8@16
+    createKeyValueBindingForKey:typeMask:, typeEncoding=@32@0:8@16Q24
+    createOptimizedProviderWithTransformation:cropping:, typeEncoding=@56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24
+    CSSAttributes, typeEncoding=@16@0:8
+    CSSAttributes, typeEncoding=@16@0:8
+    CSSAttributeString, typeEncoding=@16@0:8
+    CSSAttributeString, typeEncoding=@16@0:8
+    CSSRotationString, typeEncoding=@16@0:8
+    CSSStringFromFloat:, typeEncoding=@24@0:8d16
+    dataArray:didAddObject:, typeEncoding=v32@0:8@16@24
+    dataArray:didRemoveObject:, typeEncoding=v32@0:8@16@24
+    dataArray:willRemoveObject:, typeEncoding=v32@0:8@16@24
+    dealloc, typeEncoding=v16@0:8
+    debugDescription, typeEncoding=@16@0:8
+    decodePropertiesUsingMigrationWithCoder:, typeEncoding=v24@0:8@16
+    decodePropertiesWithCoder:, typeEncoding=v24@0:8@16
+    decodePropertiesWithCoder:, typeEncoding=v24@0:8@16
+    decodePropertiesWithCoder:, typeEncoding=v24@0:8@16
+    decodePropertiesWithCoder:, typeEncoding=v24@0:8@16
+    decodePropertiesWithCoder:, typeEncoding=v24@0:8@16
+    defaultName, typeEncoding=@16@0:8
+    defaultName, typeEncoding=@16@0:8
+    defaultStyle, typeEncoding=@16@0:8
+    description, typeEncoding=@16@0:8
+    description, typeEncoding=@16@0:8
+    description, typeEncoding=@16@0:8
+    descriptionDictionary, typeEncoding=@16@0:8
+    descriptionDictionary, typeEncoding=@16@0:8
+    deselectAllLayers, typeEncoding=v16@0:8
+    deselectLayerAndParent, typeEncoding=v16@0:8
+    dictionaryWithValuesForKeys:, typeEncoding=@24@0:8@16
+    didCatchException:duringEncodeWithCoder:, typeEncoding=v32@0:8@16@24
+    didChange:valuesAtIndexes:forKey:, typeEncoding=v40@0:8Q16@24@32
+    didChangeValueForKey:, typeEncoding=v24@0:8@16
+    didChangeValueForKey:withSetMutation:usingObjects:, typeEncoding=v40@0:8@16Q24@32
+    displayName, typeEncoding=@16@0:8
+    displayType, typeEncoding=Q16@0:8
+    documentData, typeEncoding=@16@0:8
+    doesContain:, typeEncoding=c24@0:8@16
+    doesNotRecognizeSelector:, typeEncoding=v24@0:8:16
+    doesNotRecognizeSelector:, typeEncoding=v24@0:8:16
+    drawHoverWithZoom:, typeEncoding=v24@0:8d16
+    drawHoverWithZoom:, typeEncoding=v24@0:8d16
+    drawPreviewInRect:selected:, typeEncoding=v52@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16c48
+    drawPreviewInRect:selected:, typeEncoding=v52@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16c48
+    duplicate, typeEncoding=@16@0:8
+    enableAutomaticScaling, typeEncoding=c16@0:8
+    encodeObjectIDWithCoder:, typeEncoding=v24@0:8@16
+    encodePropertiesWithCoder:, typeEncoding=v24@0:8@16
+    encodePropertiesWithCoder:, typeEncoding=v24@0:8@16
+    encodeWithCAMLWriter:, typeEncoding=v24@0:8@16
+    encodeWithCoder:, typeEncoding=v24@0:8@16
+    encodeWithCoder:, typeEncoding=v24@0:8@16
+    entityName, typeEncoding=@16@0:8
+    enumerateChildProperties:, typeEncoding=v24@0:8@?16
+    enumerateChildProperties:, typeEncoding=v24@0:8@?16
+    enumerateChildProperties:, typeEncoding=v24@0:8@?16
+    enumerateChildProperties:, typeEncoding=v24@0:8@?16
+    enumerateLayers:, typeEncoding=v24@0:8@?16
+    enumerateLayers:, typeEncoding=v24@0:8@?16
+    enumerateLayersWithOptions:block:, typeEncoding=c32@0:8Q16@?24
+    enumerateLayersWithOptions:block:, typeEncoding=c32@0:8Q16@?24
+    enumerateLayersWithOptions:classFilter:block:, typeEncoding=c40@0:8Q16#24@?32
+    enumerateMigrations:fromVersion:block:, typeEncoding=v40@0:8^:16q24@?32
+    enumerateProperties:, typeEncoding=v24@0:8@?16
+    enumerateProperties:, typeEncoding=v24@0:8@?16
+    enumerateProperties:, typeEncoding=v24@0:8@?16
+    enumerateProperties:, typeEncoding=v24@0:8@?16
+    executeAsBlock, typeEncoding=v16@0:8
+    expandableInLayerList, typeEncoding=c16@0:8
+    expandableInLayerList, typeEncoding=c16@0:8
+    exportOptions, typeEncoding=@16@0:8
+    exposedBindings, typeEncoding=@16@0:8
+    fillInEmptyObjects, typeEncoding=v16@0:8
+    fillInEmptyObjects, typeEncoding=v16@0:8
+    fillInEmptyObjects, typeEncoding=v16@0:8
+    fillInEmptyObjects, typeEncoding=v16@0:8
+    filterType, typeEncoding=Q16@0:8
+    finalize, typeEncoding=v16@0:8
+    finalizeForMochaScript, typeEncoding=v16@0:8
+    finishObserving, typeEncoding=v16@0:8
+    firstLayer, typeEncoding=@16@0:8
+    firstLayer, typeEncoding=@16@0:8
+    flattenIfNecessary, typeEncoding=c16@0:8
+    flushKeyBindings, typeEncoding=v16@0:8
+    forwardingTargetForSelector:, typeEncoding=@24@0:8:16
+    forwardInvocation:, typeEncoding=v24@0:8@16
+    frame, typeEncoding=@16@0:8
+    frameForTransforms, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    frameInArtboard, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    generateObjectID, typeEncoding=@16@0:8
+    groupDidAddThisLayer:, typeEncoding=v24@0:8@16
+    groupDidRemoveThisLayer:, typeEncoding=v24@0:8@16
+    handleDoubleClick, typeEncoding=c16@0:8
+    handleDoubleClick, typeEncoding=c16@0:8
+    handleQueryWithUnboundKey:, typeEncoding=@24@0:8@16
+    handlerName, typeEncoding=@16@0:8
+    handlerName, typeEncoding=@16@0:8
+    handleTakeValue:forUnboundKey:, typeEncoding=v32@0:8@16@24
+    hasActiveBackgroundBlur, typeEncoding=c16@0:8
+    hasActiveBackgroundBlur, typeEncoding=c16@0:8
+    hasBitmapStylesEnabled, typeEncoding=c16@0:8
+    hasBitmapStylesEnabled, typeEncoding=c16@0:8
+    hasCache, typeEncoding=c16@0:8
+    hasClickThrough, typeEncoding=c16@0:8
+    hasClickThrough, typeEncoding=c16@0:8
+    hasClippingMask, typeEncoding=c16@0:8
+    hasDefaultValues, typeEncoding=c16@0:8
+    hasDefaultValues, typeEncoding=c16@0:8
+    hasDefaultValues, typeEncoding=c16@0:8
+    hasDefaultValues, typeEncoding=c16@0:8
+    hash, typeEncoding=Q16@0:8
+    hasHighlight, typeEncoding=c16@0:8
+    hasLayerWithMaskMode, typeEncoding=q16@0:8
+    hasObjectID, typeEncoding=c16@0:8
+    hasTransforms, typeEncoding=c16@0:8
+    hideSelectionTemporarily, typeEncoding=v16@0:8
+    hitTest:zoomValue:, typeEncoding=c40@0:8{CGPoint=dd}16d32
+    hitTestCornerOfSelectedLayer:mouse:zoomValue:, typeEncoding=c48@0:8@16{CGPoint=dd}24d40
+    ignoreNextSymbolSyncChange, typeEncoding=c16@0:8
+    IKImageRepresentationWithType:, typeEncoding=@24@0:8@16
+    ikInMainLoopWait:, typeEncoding=@20@0:8c16
+    imageBrowser:didValidateVisibleCellsAtIndexes:, typeEncoding=v32@0:8@16@24
+    imageBrowser:willDisplayCellsAtIndexes:, typeEncoding=v32@0:8@16@24
+    imageHashes, typeEncoding=@16@0:8
+    imageOwners, typeEncoding=@16@0:8
+    imageSubtitle, typeEncoding=@16@0:8
+    imageTitle, typeEncoding=@16@0:8
+    imageToDrawForCell:, typeEncoding=@24@0:8@16
+    immutableModelObject, typeEncoding=@16@0:8
+    immutableModelObject, typeEncoding=@16@0:8
+    immutableModelObject, typeEncoding=@16@0:8
+    immutableModelObject, typeEncoding=@16@0:8
+    immutableModelObject, typeEncoding=@16@0:8
+    implementsSelector:, typeEncoding=c24@0:8:16
+    includeChildrenInCalculatingStyleSize, typeEncoding=c16@0:8
+    includeInLayersBelowPoint, typeEncoding=c16@0:8
+    includeInLayersBelowPoint, typeEncoding=c16@0:8
+    indexOfLayer:, typeEncoding=Q24@0:8@16
+    indexOfLayer:, typeEncoding=Q24@0:8@16
+    influenceRectEdgePaddingsThatCascadeToContainedLayers, typeEncoding={BCEdgePaddings=dddd}16@0:8
+    influenceRectEdgePaddingsThatDoNotCascade, typeEncoding={BCEdgePaddings=dddd}16@0:8
+    influenceRectForBounds, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    influenceRectForFrame, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    influenceRectForFrameFromBoundsInfluenceRect:, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    influenceRectPaddingThatCascadesToContainedLayers, typeEncoding=d16@0:8
+    infoForBinding:, typeEncoding=@24@0:8@16
+    init, typeEncoding=@16@0:8
+    init, typeEncoding=@16@0:8
+    init, typeEncoding=@16@0:8
+    initEmptyObject, typeEncoding=v16@0:8
+    initEmptyObject, typeEncoding=v16@0:8
+    initEmptyObject, typeEncoding=v16@0:8
+    initEmptyObject, typeEncoding=v16@0:8
+    initEmptyObject, typeEncoding=v16@0:8
+    initEmptyObject, typeEncoding=v16@0:8
+    initEmptyObject, typeEncoding=v16@0:8
+    initObjectWithCoder:, typeEncoding=v24@0:8@16
+    initWithCoder:, typeEncoding=@24@0:8@16
+    initWithCoder:, typeEncoding=@24@0:8@16
+    initWithFrame:, typeEncoding=@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    initWithNoSetup, typeEncoding=@16@0:8
+    insertLayers:afterLayer:, typeEncoding=v32@0:8@16@24
+    insertLayers:afterLayer:, typeEncoding=v32@0:8@16@24
+    insertLayers:atIndex:, typeEncoding=v32@0:8@16Q24
+    insertLayers:atIndex:, typeEncoding=v32@0:8@16Q24
+    insertLayers:beforeLayer:, typeEncoding=v32@0:8@16@24
+    insertLayers:beforeLayer:, typeEncoding=v32@0:8@16@24
+    insertValue:atIndex:inPropertyWithKey:, typeEncoding=v40@0:8@16Q24@32
+    insertValue:inPropertyWithKey:, typeEncoding=v32@0:8@16@24
+    inspectorViewControllerNames, typeEncoding=@16@0:8
+    inspectorViewControllerNames, typeEncoding=@16@0:8
+    inspectorViewControllers, typeEncoding=@16@0:8
+    intersectsSlice:, typeEncoding=c24@0:8@16
+    invalidateCachedImmutableModelObjects, typeEncoding=v16@0:8
+    invalidateLightweightCopy:, typeEncoding=v24@0:8@16
+    invalidateLightweightCopy:, typeEncoding=v24@0:8@16
+    invalidateLightweightCopy:, typeEncoding=v24@0:8@16
+    invalidateLightweightCopy:, typeEncoding=v24@0:8@16
+    inverseForRelationshipKey:, typeEncoding=@24@0:8@16
+    isActive, typeEncoding=c16@0:8
+    isActualSymbol, typeEncoding=c16@0:8
+    isAlreadyCaching, typeEncoding=c16@0:8
+    isCaseInsensitiveLike:, typeEncoding=c24@0:8@16
+    isEqual:, typeEncoding=c24@0:8@16
+    isEqualForSync:asPartOfSymbol:, typeEncoding=c32@0:8@16@24
+    isEqualForSync:asPartOfSymbol:, typeEncoding=c32@0:8@16@24
+    isEqualForSync:asPartOfSymbol:, typeEncoding=c32@0:8@16@24
+    isEqualForSync:asPartOfSymbol:, typeEncoding=c32@0:8@16@24
+    isEqualForSync:asPartOfSymbol:, typeEncoding=c32@0:8@16@24
+    isEqualForSync:asPartOfSymbol:, typeEncoding=c32@0:8@16@24
+    isEqualTo:, typeEncoding=c24@0:8@16
+    isExpanded, typeEncoding=c16@0:8
+    isExpanded, typeEncoding=c16@0:8
+    isExportableViaDragAndDrop, typeEncoding=c16@0:8
+    isFault, typeEncoding=c16@0:8
+    isFlippedHorizontal, typeEncoding=c16@0:8
+    isFlippedVertical, typeEncoding=c16@0:8
+    isFrameEqualForSync:, typeEncoding=c24@0:8@16
+    isGreaterThan:, typeEncoding=c24@0:8@16
+    isGreaterThanOrEqualTo:, typeEncoding=c24@0:8@16
+    isHovering, typeEncoding=c16@0:8
+    isInstanceOfSameSymbolAs:, typeEncoding=c24@0:8@16
+    isInstanceOfSameSymbolAs:, typeEncoding=c24@0:8@16
+    isKindOfClass:, typeEncoding=c24@0:8#16
+    isLayerExportable, typeEncoding=c16@0:8
+    isLessThan:, typeEncoding=c24@0:8@16
+    isLessThanOrEqualTo:, typeEncoding=c24@0:8@16
+    isLightweightCopy, typeEncoding=c16@0:8
+    isLightweightCopy, typeEncoding=c16@0:8
+    isLightweightCopy, typeEncoding=c16@0:8
+    isLike:, typeEncoding=c24@0:8@16
+    isLine, typeEncoding=c16@0:8
+    isLocked, typeEncoding=c16@0:8
+    isMasked, typeEncoding=c16@0:8
+    isMemberOfClass:, typeEncoding=c24@0:8#16
+    isNotEqualTo:, typeEncoding=c24@0:8@16
+    isNSArray__, typeEncoding=c16@0:8
+    isNSData__, typeEncoding=c16@0:8
+    isNSDate__, typeEncoding=c16@0:8
+    isNSDictionary__, typeEncoding=c16@0:8
+    isNSNumber__, typeEncoding=c16@0:8
+    isNSOrderedSet__, typeEncoding=c16@0:8
+    isNSSet__, typeEncoding=c16@0:8
+    isNSString__, typeEncoding=c16@0:8
+    isNSTimeZone__, typeEncoding=c16@0:8
+    isNSValue__, typeEncoding=c16@0:8
+    isOpen, typeEncoding=c16@0:8
+    isOpen, typeEncoding=c16@0:8
+    isOpenForFindingAllLayers:, typeEncoding=c20@0:8c16
+    isOpenForFindingAllLayers:, typeEncoding=c20@0:8c16
+    isPartOfClippingMask, typeEncoding=c16@0:8
+    isProxy, typeEncoding=c16@0:8
+    isRectIntegral, typeEncoding=c16@0:8
+    isSelected, typeEncoding=c16@0:8
+    isSharedObject, typeEncoding=c16@0:8
+    isSharedObject, typeEncoding=c16@0:8
+    isSharedObject, typeEncoding=c16@0:8
+    isSymbol, typeEncoding=c16@0:8
+    isSymbol, typeEncoding=c16@0:8
+    isToManyKey:, typeEncoding=c24@0:8@16
+    isTooSmallForHitTesting:, typeEncoding=c24@0:8d16
+    isUndoing, typeEncoding=c16@0:8
+    isUndoingModelObjectChange, typeEncoding=c16@0:8
+    isVisible, typeEncoding=c16@0:8
+    keyValueBindingForKey:typeMask:, typeEncoding=@32@0:8@16Q24
+    lastLayer, typeEncoding=@16@0:8
+    lastLayer, typeEncoding=@16@0:8
+    layerAtIndex:, typeEncoding=@24@0:8Q16
+    layerAtIndex:, typeEncoding=@24@0:8Q16
+    layerDidChange, typeEncoding=v16@0:8
+    layerDidResizeFromInspector, typeEncoding=v16@0:8
+    layerDidResizeFromRect:, typeEncoding=v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    layerDidResizeFromRect:corner:, typeEncoding=v56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48
+    layerFinishedResize, typeEncoding=v16@0:8
+    layerFinishedResize, typeEncoding=v16@0:8
+    layerListExpandedType, typeEncoding=q16@0:8
+    layerOffsetWithExporter:, typeEncoding={CGPoint=dd}24@0:8@16
+    layers, typeEncoding=@16@0:8
+    layersBelowPoint:forceClickThrough:keepLockedLayers:zoomValue:, typeEncoding=@48@0:8{CGPoint=dd}16c32c36d40
+    layerSnapperObjectClass, typeEncoding=#16@0:8
+    layersSharingStyle:, typeEncoding=@24@0:8@16
+    layersSharingStyle:, typeEncoding=@24@0:8@16
+    layersSharingStyle:, typeEncoding=@24@0:8@16
+    layerStyleDidChange, typeEncoding=v16@0:8
+    layerSuitableForInsertingIntoGroup:, typeEncoding=@24@0:8@16
+    layerWillResize, typeEncoding=v16@0:8
+    layerWillResize, typeEncoding=v16@0:8
+    layerWithID:, typeEncoding=@24@0:8@16
+    layerWithID:, typeEncoding=@24@0:8@16
+    lightweightAbsoluteRect, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    lightweightContainsSelectedItem, typeEncoding=c16@0:8
+    lightweightCopy, typeEncoding=@16@0:8
+    lightweightCopy, typeEncoding=@16@0:8
+    lightweightDrawableFrame, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    lightweightHasBitmapStylesEnabled, typeEncoding=c16@0:8
+    lightweightTransform, typeEncoding=@16@0:8
+    makeLightweightCopy, typeEncoding=@16@0:8
+    makeNameUnique, typeEncoding=v16@0:8
+    makeOriginIntegral, typeEncoding=v16@0:8
+    makeRectIntegral, typeEncoding=v16@0:8
+    markLayerDirtyOfType:, typeEncoding=v24@0:8Q16
+    markLayerDirtyOfType:, typeEncoding=v24@0:8Q16
+    markLayerDirtyOfType:margins:, typeEncoding=v40@0:8Q16{CGSize=dd}24
+    methodDescriptionForSelector:, typeEncoding=^{objc_method_description=:*}24@0:8:16
+    methodForSelector:, typeEncoding=^?24@0:8:16
+    methodSignatureForSelector:, typeEncoding=@24@0:8:16
+    methodSignatureForSelector:, typeEncoding=@24@0:8:16
+    migrationListForClass:, typeEncoding=^:24@0:8#16
+    migrationsInList:, typeEncoding=@24@0:8^:16
+    moveInLayerTreeInBlock:, typeEncoding=v24@0:8@?16
+    moveInLayerTreeInBlock:, typeEncoding=v24@0:8@?16
+    moveLayersToParent, typeEncoding=@16@0:8
+    moveToLayer:beforeLayer:, typeEncoding=v32@0:8@16@24
+    moveTransformsToChildren:, typeEncoding=v24@0:8@16
+    multiplyBy:, typeEncoding=v24@0:8d16
+    multiplyBy:, typeEncoding=v24@0:8d16
+    multiplyBy:, typeEncoding=v24@0:8d16
+    mutableArrayValueForKey:, typeEncoding=@24@0:8@16
+    mutableArrayValueForKeyPath:, typeEncoding=@24@0:8@16
+    mutableCopy, typeEncoding=@16@0:8
+    mutableCopyDeep, typeEncoding=@16@0:8
+    mutableOrderedSetValueForKey:, typeEncoding=@24@0:8@16
+    mutableOrderedSetValueForKeyPath:, typeEncoding=@24@0:8@16
+    mutableSetValueForKey:, typeEncoding=@24@0:8@16
+    mutableSetValueForKeyPath:, typeEncoding=@24@0:8@16
+    name, typeEncoding=@16@0:8
+    nameIsFixed, typeEncoding=c16@0:8
+    namesOfAllLayersInContainer:, typeEncoding=@24@0:8@16
+    newScriptingObjectOfClass:forValueForKey:withContentsValue:properties:, typeEncoding=@48@0:8#16@24@32@40
+    nextSlicePiece:, typeEncoding=v24@0:8@16
+    notifyParentsOfPropertyChange:, typeEncoding=v24@0:8@16
+    NS_addTiledLayerDescendent:, typeEncoding=v24@0:8@16
+    NS_copyCGImage, typeEncoding=^{CGImage=}16@0:8
+    NS_removeTiledLayerDescendent:, typeEncoding=v24@0:8@16
+    NS_tiledLayerVisibleRect, typeEncoding=@16@0:8
+    objectDidChange, typeEncoding=v16@0:8
+    objectDidChange, typeEncoding=v16@0:8
+    objectDidInit, typeEncoding=v16@0:8
+    objectDidInit, typeEncoding=v16@0:8
+    objectDidInit, typeEncoding=v16@0:8
+    objectID, typeEncoding=@16@0:8
+    objectIDsForSelfAncestorsAndChildren, typeEncoding=@16@0:8
+    objectSpecifier, typeEncoding=@16@0:8
+    observationInfo, typeEncoding=^v16@0:8
+    observeValueForKeyPath:ofObject:change:context:, typeEncoding=v48@0:8@16@24@32^v40
+    ojbcClass, typeEncoding=#16@0:8
+    optionDescriptionsForBinding:, typeEncoding=@24@0:8@16
+    origin, typeEncoding={CGPoint=dd}16@0:8
+    originalObjectID, typeEncoding=@16@0:8
+    ownsDestinationObjectsForRelationshipKey:, typeEncoding=c24@0:8@16
+    parentArtboard, typeEncoding=@16@0:8
+    parentForInsertingLayers, typeEncoding=@16@0:8
+    parentGroup, typeEncoding=@16@0:8
+    parentGroupRecursive, typeEncoding=@16@0:8
+    parentGroupRecursive, typeEncoding=@16@0:8
+    parentObject, typeEncoding=@16@0:8
+    parentObject, typeEncoding=@16@0:8
+    parentOrSelfIsSymbol, typeEncoding=c16@0:8
+    parentOrSelfIsSymbol, typeEncoding=c16@0:8
+    parentOrSelfIsSymbolWithID:, typeEncoding=c24@0:8@16
+    parentPage, typeEncoding=@16@0:8
+    parentRoot, typeEncoding=@16@0:8
+    parentRootForAbsoluteRect, typeEncoding=@16@0:8
+    parentWillResizeLayerToRect:, typeEncoding=v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    performMigrationsWithCoder:, typeEncoding=v24@0:8@16
+    performSelector:, typeEncoding=@24@0:8:16
+    performSelector:object:afterDelay:, typeEncoding=v40@0:8:16@24d32
+    performSelector:onThread:withObject:waitUntilDone:, typeEncoding=v44@0:8:16@24@32c40
+    performSelector:onThread:withObject:waitUntilDone:modes:, typeEncoding=v52@0:8:16@24@32c40@44
+    performSelector:withObject:, typeEncoding=@32@0:8:16@24
+    performSelector:withObject:afterDelay:, typeEncoding=v40@0:8:16@24d32
+    performSelector:withObject:afterDelay:inModes:, typeEncoding=v48@0:8:16@24d32@40
+    performSelector:withObject:withObject:, typeEncoding=@40@0:8:16@24@32
+    performSelectorInBackground:withObject:, typeEncoding=v32@0:8:16@24
+    performSelectorOnMainThread:withObject:waitUntilDone:, typeEncoding=v36@0:8:16@24c32
+    performSelectorOnMainThread:withObject:waitUntilDone:modes:, typeEncoding=v44@0:8:16@24c32@36
+    preCalculatedHasSelectedLayer, typeEncoding=q16@0:8
+    prepareAsMaskContainer, typeEncoding=v16@0:8
+    prepareCopy:, typeEncoding=v24@0:8@16
+    prepareForInterfaceBuilder, typeEncoding=v16@0:8
+    prepareObjectCopy:, typeEncoding=v24@0:8@16
+    prepareObjectCopy:, typeEncoding=v24@0:8@16
+    prepareObjectCopy:, typeEncoding=v24@0:8@16
+    prepareObjectCopy:, typeEncoding=v24@0:8@16
+    previewBorderColor:, typeEncoding=@20@0:8c16
+    previewBorderColor:, typeEncoding=@20@0:8c16
+    previewFillColor:, typeEncoding=@20@0:8c16
+    previewFillColor:, typeEncoding=@20@0:8c16
+    previewImages, typeEncoding=@16@0:8
+    previewImageWithSelectedState:, typeEncoding=@20@0:8c16
+    primitiveExportOptions, typeEncoding=@16@0:8
+    primitiveFrame, typeEncoding=@16@0:8
+    primitiveHasClickThrough, typeEncoding=c16@0:8
+    primitiveIsFlippedHorizontal, typeEncoding=c16@0:8
+    primitiveIsFlippedVertical, typeEncoding=c16@0:8
+    primitiveIsLocked, typeEncoding=c16@0:8
+    primitiveIsVisible, typeEncoding=c16@0:8
+    primitiveLayerListExpandedType, typeEncoding=q16@0:8
+    primitiveLayers, typeEncoding=@16@0:8
+    primitiveName, typeEncoding=@16@0:8
+    primitiveNameIsFixed, typeEncoding=c16@0:8
+    primitiveObjectID, typeEncoding=@16@0:8
+    primitiveOriginalObjectID, typeEncoding=@16@0:8
+    primitiveRotation, typeEncoding=d16@0:8
+    primitiveSharedObjectID, typeEncoding=@16@0:8
+    primitiveShouldBreakMaskChain, typeEncoding=c16@0:8
+    primitiveStyle, typeEncoding=@16@0:8
+    primitiveUserInfo, typeEncoding=@16@0:8
+    proportions, typeEncoding=d16@0:8
+    QTKeyValueProxyTarget_keyPathsForValuesAffectingValueForKey:, typeEncoding=@24@0:8@16
+    receiveObservedError:, typeEncoding=v24@0:8@16
+    receiveObservedValue:, typeEncoding=v24@0:8@16
+    recordAllocation, typeEncoding=v16@0:8
+    recordDeallocation, typeEncoding=v16@0:8
+    rect, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    rectDidChange:fromRect:, typeEncoding=v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24
+    rectDidChange:fromRect:, typeEncoding=v56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24
+    refreshForPropertyChanged, typeEncoding=v16@0:8
+    refreshOfType:inBlock:, typeEncoding=v32@0:8Q16@?24
+    refreshOfType:rect:, typeEncoding=v56@0:8Q16{CGRect={CGPoint=dd}{CGSize=dd}}24
+    refreshOfType:rect:, typeEncoding=v56@0:8Q16{CGRect={CGPoint=dd}{CGSize=dd}}24
+    refreshViewsWithMask:, typeEncoding=v24@0:8Q16
+    registerUndoNamed:action:, typeEncoding=v32@0:8@16@?24
+    relativeChildFrames, typeEncoding=@16@0:8
+    relativeRectWithExporter:, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16
+    release, typeEncoding=Vv16@0:8
+    releaseRenderedTexture:forCGLContext:, typeEncoding=v28@0
+    removeAllLayers, typeEncoding=v16@0:8
+    removeAllLayers, typeEncoding=v16@0:8
+    removeFromParent, typeEncoding=v16@0:8
+    removeLayer:, typeEncoding=v24@0:8@16
+    removeLayer:, typeEncoding=v24@0:8@16
+    removeLayerAtIndex:, typeEncoding=v24@0:8Q16
+    removeLayerAtIndex:, typeEncoding=v24@0:8Q16
+    removeObject:fromBothSidesOfRelationshipWithKey:, typeEncoding=v32@0:8@16@24
+    removeObject:fromPropertyWithKey:, typeEncoding=v32@0:8@16@24
+    removeObservation:, typeEncoding=v24@0:8@16
+    removeObservation:forObservableKeyPath:, typeEncoding=v32@0:8@16@24
+    removeObserver:forKeyPath:, typeEncoding=v32@0:8@16@24
+    removeObserver:forKeyPath:context:, typeEncoding=v40@0:8@16@24^v32
+    removeObserver:forKeyPaths:, typeEncoding=v32@0:8@16@24
+    removeValueAtIndex:fromPropertyWithKey:, typeEncoding=v32@0:8Q16@24
+    renderBitmapEffects:, typeEncoding=@24@0:8@16
+    renderBitmapEffects:, typeEncoding=@24@0:8@16
+    rendererClass, typeEncoding=#16@0:8
+    rendererClass, typeEncoding=#16@0:8
+    renderToBuffer:withBytesPerRow:pixelFormat:forBounds:, typeEncoding=c72@0:8^v16Q24@32{CGRect={CGPoint=dd}{CGSize=dd}}40
+    renderWithCGLContext:forBounds:, typeEncoding=c56@0
+    replaceLayersWithLayers:, typeEncoding=v24@0:8@16
+    replaceLayersWithLayers:, typeEncoding=v24@0:8@16
+    replacementObjectForArchiver:, typeEncoding=@24@0:8@16
+    replacementObjectForCoder:, typeEncoding=@24@0:8@16
+    replacementObjectForKeyedArchiver:, typeEncoding=@24@0:8@16
+    replacementObjectForPortCoder:, typeEncoding=@24@0:8@16
+    replaceValueAtIndex:inPropertyWithKey:withValue:, typeEncoding=v40@0:8Q16@24@32
+    requiredRect, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}16@0:8
+    resizeChildLayer:atIndex:oldParentSize:widthChanged:heightChanged:, typeEncoding=v56@0:8@16Q24{CGSize=dd}32c48c52
+    resizeRoot:, typeEncoding=c20@0:8c16
+    resolveForwardingConflictWithPreviousMetadata:forKey:, typeEncoding=@32@0:8@16@24
+    respondsToSelector:, typeEncoding=c24@0:8:16
+    retain, typeEncoding=@16@0:8
+    retainCount, typeEncoding=Q16@0:8
+    retainWeakReference, typeEncoding=c16@0:8
+    rootForNameUniqueing, typeEncoding=@16@0:8
+    rootModelObject, typeEncoding=@16@0:8
+    rotation, typeEncoding=d16@0:8
+    safeCastToClass:, typeEncoding=@24@0:8#16
+    scriptingProperties, typeEncoding=@16@0:8
+    scriptingValueForSpecifier:, typeEncoding=@24@0:8@16
+    SCTExtractTitle, typeEncoding=@16@0:8
+    SCTPerformDelayedSelector:, typeEncoding=v24@0:8:16
+    SCTPerformDelayedSelector:withObject:, typeEncoding=v32@0:8:16@24
+    SCTPerformDelayedSelector:withObject:afterDelay:, typeEncoding=v40@0:8:16@24d32
+    SCTPerformSelector:withObjectsFromArray:, typeEncoding=v32@0:8:16@24
+    SCTUserInterfaceItemIdentifier, typeEncoding=@16@0:8
+    select:byExpandingSelection:, typeEncoding=v24@0:8c16c20
+    select:byExpandingSelection:showSelection:, typeEncoding=v28@0:8c16c20c24
+    selectedBadgeMenuItem, typeEncoding=Q16@0:8
+    selectedCorner:zoom:, typeEncoding=q40@0:8{CGPoint=dd}16d32
+    selectedInLayerList, typeEncoding=c16@0:8
+    selectionCornerMaskWithZoomValue:, typeEncoding=Q24@0:8d16
+    selectLayers:, typeEncoding=v24@0:8@16
+    self, typeEncoding=@16@0:8
+    setAbsolutePosition:, typeEncoding=v32@0:8{CGPoint=dd}16
+    setAbsoluteRect:, typeEncoding=v24@0:8@16
+    setAsParentOnChildren, typeEncoding=v16@0:8
+    setAsParentOnChildren, typeEncoding=v16@0:8
+    setAsParentOnChildren, typeEncoding=v16@0:8
+    setAsParentOnChildren, typeEncoding=v16@0:8
+    setCachedImmutableModelObject:, typeEncoding=v24@0:8@16
+    setCachedInfluenceRectForBounds:, typeEncoding=v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    setConstrainProportions:, typeEncoding=v20@0:8c16
+    setConstrainProportions:, typeEncoding=v20@0:8c16
+    setCOSJSTargetFunction:, typeEncoding=v24@0:8@16
+    setDocumentData:, typeEncoding=v24@0:8@16
+    setEnableAutomaticScaling:, typeEncoding=v20@0:8c16
+    setExportOptions:, typeEncoding=v24@0:8@16
+    setFrame:, typeEncoding=v24@0:8@16
+    setFrameInArtboard:, typeEncoding=v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    setFrameInArtboard:insertingIntoGroup:, typeEncoding=v56@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48
+    setHasClickThrough:, typeEncoding=v20@0:8c16
+    setHasLayerWithMaskMode:, typeEncoding=v24@0:8q16
+    setHeightRespectingProportions:, typeEncoding=v24@0:8d16
+    setIgnoreNextClickThrough:, typeEncoding=v20@0:8c16
+    setIgnoreNextSymbolSyncChange:, typeEncoding=v20@0:8c16
+    setIsAlreadyCaching:, typeEncoding=v20@0:8c16
+    setIsFlippedHorizontal:, typeEncoding=v20@0:8c16
+    setIsFlippedHorizontal:, typeEncoding=v20@0:8c16
+    setIsFlippedVertical:, typeEncoding=v20@0:8c16
+    setIsFlippedVertical:, typeEncoding=v20@0:8c16
+    setIsHovering:, typeEncoding=v20@0:8c16
+    setIsHovering:, typeEncoding=v20@0:8c16
+    setIsLightweightCopy:, typeEncoding=v20@0:8c16
+    setIsLocked:, typeEncoding=v20@0:8c16
+    setIsLocked:, typeEncoding=v20@0:8c16
+    setIsOpen:, typeEncoding=v20@0:8c16
+    setIsSelected:, typeEncoding=v20@0:8c16
+    setIsSelected:, typeEncoding=v20@0:8c16
+    setIsVisible:, typeEncoding=v20@0:8c16
+    setLayerListExpandedType:, typeEncoding=v24@0:8q16
+    setLayerListExpandedType:, typeEncoding=v24@0:8q16
+    setLayers:, typeEncoding=v24@0:8@16
+    setLayers:, typeEncoding=v24@0:8@16
+    setLightweightAbsoluteRect:, typeEncoding=v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    setLightweightContainsSelectedItem:, typeEncoding=v20@0:8c16
+    setLightweightCopy:, typeEncoding=v24@0:8@16
+    setLightweightDrawableFrame:, typeEncoding=v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    setLightweightHasBitmapStylesEnabled:, typeEncoding=v20@0:8c16
+    setLightweightTransform:, typeEncoding=v24@0:8@16
+    setMid:, typeEncoding=v32@0:8{CGPoint=dd}16
+    setName:, typeEncoding=v24@0:8@16
+    setName:, typeEncoding=v24@0:8@16
+    setNameIsFixed:, typeEncoding=v20@0:8c16
+    setNilValueForKey:, typeEncoding=v24@0:8@16
+    setNilValueForKey:, typeEncoding=v24@0:8@16
+    setNilValueForKey:, typeEncoding=v24@0:8@16
+    setObjectID:, typeEncoding=v24@0:8@16
+    setObservation:forObservingKeyPath:, typeEncoding=v32@0:8@16@24
+    setObservationInfo:, typeEncoding=v24@0:8^v16
+    setOrigin:, typeEncoding=v32@0:8{CGPoint=dd}16
+    setOriginalObjectID:, typeEncoding=v24@0:8@16
+    setParentObject:, typeEncoding=v24@0:8@16
+    setParentObject:, typeEncoding=v24@0:8@16
+    setPreCalculatedHasSelectedLayer:, typeEncoding=v24@0:8q16
+    setPrimitiveExportOptions:, typeEncoding=v24@0:8@16
+    setPrimitiveFrame:, typeEncoding=v24@0:8@16
+    setPrimitiveHasClickThrough:, typeEncoding=v20@0:8c16
+    setPrimitiveIsFlippedHorizontal:, typeEncoding=v20@0:8c16
+    setPrimitiveIsFlippedVertical:, typeEncoding=v20@0:8c16
+    setPrimitiveIsLocked:, typeEncoding=v20@0:8c16
+    setPrimitiveIsVisible:, typeEncoding=v20@0:8c16
+    setPrimitiveLayerListExpandedType:, typeEncoding=v24@0:8q16
+    setPrimitiveLayers:, typeEncoding=v24@0:8@16
+    setPrimitiveName:, typeEncoding=v24@0:8@16
+    setPrimitiveNameIsFixed:, typeEncoding=v20@0:8c16
+    setPrimitiveObjectID:, typeEncoding=v24@0:8@16
+    setPrimitiveOriginalObjectID:, typeEncoding=v24@0:8@16
+    setPrimitiveRotation:, typeEncoding=v24@0:8d16
+    setPrimitiveSharedObjectID:, typeEncoding=v24@0:8@16
+    setPrimitiveShouldBreakMaskChain:, typeEncoding=v20@0:8c16
+    setPrimitiveStyle:, typeEncoding=v24@0:8@16
+    setPrimitiveUserInfo:, typeEncoding=v24@0:8@16
+    setProportions:, typeEncoding=v24@0:8d16
+    setRect:, typeEncoding=v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    setRelativeChildFrames:, typeEncoding=v24@0:8@16
+    setRotation:, typeEncoding=v24@0:8d16
+    setRotation:, typeEncoding=v24@0:8d16
+    setScriptingProperties:, typeEncoding=v24@0:8@16
+    setSharedObjectID:, typeEncoding=v24@0:8@16
+    setShouldBreakMaskChain:, typeEncoding=v20@0:8c16
+    setStyle:, typeEncoding=v24@0:8@16
+    setStyle:, typeEncoding=v24@0:8@16
+    setStyle:, typeEncoding=v24@0:8@16
+    settingsView:clearSettingForKey:, typeEncoding=v32@0:8@16@24
+    settingsView:renameKey:toKey:, typeEncoding=v40@0:8@16@24@32
+    settingsView:setSetting:forKey:, typeEncoding=v40@0:8@16@24@32
+    settingsView:settingForKey:, typeEncoding=@32@0:8@16@24
+    settingsView:shouldRenameKey:, typeEncoding=c32@0:8@16@24
+    setTraits:, typeEncoding=v24@0:8Q16
+    setTransformStruct:, typeEncoding=v32@0:8{_CHTransformStruct=dccc}16
+    setUndoActionName:, typeEncoding=v24@0:8@16
+    setUndoActionSenderAndName:, typeEncoding=v24@0:8@16
+    setUpNewGroup, typeEncoding=v16@0:8
+    setupWithLayerBuilderDictionary:, typeEncoding=v24@0:8@16
+    setupWithLayerBuilderDictionary:, typeEncoding=v24@0:8@16
+    setUserInfo:, typeEncoding=v24@0:8@16
+    setUserInterfaceItemIdentifier:, typeEncoding=v24@0:8@16
+    setUserVisibleRotation:, typeEncoding=v24@0:8d16
+    setValue:forKey:, typeEncoding=v32@0:8@16@24
+    setValue:forKeyPath:, typeEncoding=v32@0:8@16@24
+    setValue:forUndefinedKey:, typeEncoding=v32@0:8@16@24
+    setValue:forUndefinedKey:, typeEncoding=v32@0:8@16@24
+    setValuesForKeysWithDictionary:, typeEncoding=v24@0:8@16
+    setWidthRespectingProportions:, typeEncoding=v24@0:8d16
+    sharedObjectID, typeEncoding=@16@0:8
+    sharedObjectOfType:, typeEncoding=@24@0:8Q16
+    sharedObjectOfType:, typeEncoding=@24@0:8Q16
+    sharedObjectOfType:, typeEncoding=@24@0:8Q16
+    shareItemData, typeEncoding=@16@0:8
+    shareItemImage, typeEncoding=@16@0:8
+    shareItemString, typeEncoding=@16@0:8
+    shareItemType, typeEncoding=@16@0:8
+    shareItemURL, typeEncoding=@16@0:8
+    shouldBreakMaskChain, typeEncoding=c16@0:8
+    shouldCachePreview, typeEncoding=c16@0:8
+    shouldClickThroughMouse:force:zoomValue:, typeEncoding=c44@0:8{CGPoint=dd}16c32d36
+    shouldClickThroughMouse:force:zoomValue:, typeEncoding=c44@0:8{CGPoint=dd}16c32d36
+    shouldColorMatch, typeEncoding=c16@0:8
+    shouldDraw, typeEncoding=Q16@0:8
+    shouldDraw, typeEncoding=Q16@0:8
+    shouldDraw, typeEncoding=Q16@0:8
+    shouldDrawSelection, typeEncoding=c16@0:8
+    shouldFlattenAfterRotate, typeEncoding=c16@0:8
+    shouldIncludeLayerInSlice:, typeEncoding=c24@0:8@16
+    shouldRenderInTransparencyLayer, typeEncoding=c16@0:8
+    shouldRenderInTransparencyLayer, typeEncoding=c16@0:8
+    shouldStripShadowsAndInnerShadow, typeEncoding=c16@0:8
+    simpleTreeStructure, typeEncoding=@16@0:8
+    snapItemForDrawing, typeEncoding=@16@0:8
+    snapLines, typeEncoding=@16@0:8
+    storedValueForKey:, typeEncoding=@24@0:8@16
+    style, typeEncoding=@16@0:8
+    superclass, typeEncoding=#16@0:8
+    supportedBufferPixelFormats, typeEncoding=@16@0:8
+    supportedRenderedTexturePixelFormats, typeEncoding=@16@0:8
+    supportsInnerOuterBorders, typeEncoding=c16@0:8
+    svgStyle, typeEncoding=@16@0:8
+    takeStoredValue:forKey:, typeEncoding=v32@0:8@16@24
+    takeStoredValuesFromDictionary:, typeEncoding=v24@0:8@16
+    takeValue:forKey:, typeEncoding=v32@0:8@16@24
+    takeValue:forKeyPath:, typeEncoding=v32@0:8@16@24
+    takeValuesFromDictionary:, typeEncoding=v24@0:8@16
+    toggleClosePath, typeEncoding=v16@0:8
+    toManyRelationshipKeys, typeEncoding=@16@0:8
+    toOneRelationshipKeys, typeEncoding=@16@0:8
+    trackColors:, typeEncoding=v24@0:8@16
+    trackColorsForBasicFill:tracker:, typeEncoding=v32@0:8@16@24
+    traits, typeEncoding=Q16@0:8
+    transform, typeEncoding=@16@0:8
+    transformForRect:, typeEncoding=@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    transformStruct, typeEncoding={_CHTransformStruct=dccc}16@0:8
+    translateChildrenFrameToLayers:, typeEncoding=v24@0:8@16
+    translateInfluenceRectFromBoundsToFrame:, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    translateInfluenceRectFromBoundsToFrame:, typeEncoding={CGRect={CGPoint=dd}{CGSize=dd}}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16
+    transparencyLayerUseRectCondition, typeEncoding=c16@0:8
+    treeAsDictionary, typeEncoding=@16@0:8
+    treeAsDictionary, typeEncoding=@16@0:8
+    treeStructure, typeEncoding=@16@0:8
+    type, typeEncoding=Q16@0:8
+    unableToSetNilForKey:, typeEncoding=v24@0:8@16
+    unbind:, typeEncoding=v24@0:8@16
+    undoManager, typeEncoding=@16@0:8
+    ungroup, typeEncoding=@16@0:8
+    unregisterAsSymbolIfNecessary, typeEncoding=v16@0:8
+    updateCachedValue:forKey:, typeEncoding=v32@0:8@16@24
+    usedStyle, typeEncoding=@16@0:8
+    usedStyle, typeEncoding=@16@0:8
+    useProportionalResizingFromCorner:, typeEncoding=c24@0:8q16
+    userInfo, typeEncoding=@16@0:8
+    userInterfaceItemIdentifier, typeEncoding=@16@0:8
+    userVisibleRotation, typeEncoding=d16@0:8
+    validateTakeValue:forKeyPath:, typeEncoding=@32@0:8@16@24
+    validateValue:forKey:, typeEncoding=@32@0:8^@16@24
+    validateValue:forKey:error:, typeEncoding=c40@0:8N^@16@24o^@32
+    validateValue:forKeyPath:error:, typeEncoding=c40@0:8N^@16@24o^@32
+    valueAtIndex:inPropertyWithKey:, typeEncoding=@32@0:8Q16@24
+    valueClassForBinding:, typeEncoding=#24@0:8@16
+    valueForKey:, typeEncoding=@24@0:8@16
+    valueForKeyPath:, typeEncoding=@24@0:8@16
+    valueForUndefinedKey:, typeEncoding=@24@0:8@16
+    valueForUndefinedKey:, typeEncoding=@24@0:8@16
+    valuesForKeys:, typeEncoding=@24@0:8@16
+    valueWithName:inPropertyWithKey:, typeEncoding=@32@0:8@16@24
+    valueWithUniqueID:inPropertyWithKey:, typeEncoding=@32@0:8@16@24
+    willChange:valuesAtIndexes:forKey:, typeEncoding=v40@0:8Q16@24@32
+    willChangeValueForKey:, typeEncoding=v24@0:8@16
+    willChangeValueForKey:withSetMutation:usingObjects:, typeEncoding=v40@0:8@16Q24@32
+    wouldInsertSymbolIntoItself:, typeEncoding=c24@0:8@16
+    writeBitmapImageToFile:, typeEncoding=v24@0:8@16
+    writeStyleToPasteboard:, typeEncoding=v24@0:8@16
+    writeSVGToElement:withExporter:, typeEncoding=v32@0:8@16@24
+    zone, typeEncoding=^{_NSZone=}16@0:8
+
+
+
+
+

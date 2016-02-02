@@ -1,14 +1,14 @@
 com.flowmate.options = {
 	mode : "debug",
 	fontName : "Helvetica",
-	fontSize : 15,
+	fontSize : 13, //15
 	fontColor : "#232323",
 	dropShadow : false,
 	align : 2,
 	process : {
-		labelWidth : 100, 
+		labelWidth : 180, // 100
 		labelHeight : 16,
-		shapeWidth : 120,
+		shapeWidth : 200, //120
 		shapeHeight : 55,
 		borderColor : "#00000",
 		borderThickness : 2,

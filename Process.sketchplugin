@@ -1,8 +1,0 @@
-// Process (ctrl shift p)
-
-@import 'lib/flowmate.js'
-@import 'lib/options.js'
-@import 'lib/util.js'
-
-com.flowmate.init();
-com.flowmate.createSymbol("Process");

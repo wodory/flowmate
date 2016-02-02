@@ -1,9 +1,9 @@
 com.flowmate.util = {
 	options : com.flowmate.options,
-	super : com.flowmate,
+	// root: com.flowmate,
 
 	addLayer : function (name, type, parent) {
-		var parent = parent ? parent : this.super.current,
+		var parent = parent ? parent : com.flowmate.current,
 			layer = parent.addLayerOfType(type);
 
 		if (name) {
@@ -25,7 +25,7 @@ com.flowmate.util = {
 	addOval: function(name, parent, opt){
 		//bg,w,h,x,y
 		//
-		var parent = parent ? parent : this.super.current;
+		var parent = parent ? parent : com.flowmate.current;
 
 		var opt = opt || {},
 			bg 	= opt.color || "#000000",
@@ -245,7 +245,9 @@ com.flowmate.util = {
 	},
 
 	didSelect : function () {
-		if (selection.count() > 0) {
+		log ("select")
+		log (this.selection)
+		if (this.selection.count() > 0) {
 			return true;
 		} else {
 			this.showToast ("Must Select Text Layer to create flochart node.");

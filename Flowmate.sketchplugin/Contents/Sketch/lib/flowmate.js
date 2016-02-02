@@ -1,12 +1,34 @@
-var com = {};
+var com = com || {};
 
 com.flowmate = {
-	init : function () {
+	init : function (context) {
+		var doc = context.document;
+
+		// log (doc);
+		// log (doc.currentPage());
+
 		this.page 		= [doc currentPage];
   		this.artboard 	= this.page.currentArtboard();
   		this.artboards 	= [doc artboards];
   		this.current 	= this.artboard ? this.artboard : this.page;
   		this.shapesFairHasConnector = [];
+  		this.selection	=  context.selection;
+
+  		// log (this.selection);
+  		// log ("end");
+	},
+	
+	extend : function( options, target ){
+        var target = target || this;
+
+        for ( var key in options ){
+            target[key] = options[key];
+        }
+        return target;
+    },
+
+	isDecision : function (shape) {
+		return (shape.name().indexOf("Decision_") > -1);
 	},
 
 	setShapeFairHasConnector : function (first, second) {
@@ -18,10 +40,10 @@ com.flowmate = {
 	},
 
 	connectSymbols : function (drawConnections) {
-		if([selection count] < 2) {
+		if(this.selection.count() < 2) {
 			this.util.showToast ("Oops, you have to select at least two layers.");
 		} else {
-			drawConnections(selection);
+			drawConnections(this.selection);
 		}
 	},
 
@@ -31,20 +53,16 @@ com.flowmate = {
 			fail 				= com.flowmate.current.layerWithID('test')	;
 
 		if (connectionsGroup != null && connectionsGroup.layers().array().count() > 0)	{
-			log ("f");
 			f(connectionsGroup);
 		} 
 	},
 
 	createSymbol : function (type) {
-		this.util.debug("createSymbol");
-		this.init();
-
-		if (!this.util.didSelect()) {
+		if (!this.selection) {
 			return;
 		}
 
-		var loop = [selection objectEnumerator];
+		var loop = this.selection.objectEnumerator();
 		while (shape = [loop nextObject]) {
 
  			if (!this.util.isText(shape)) {
@@ -52,14 +70,16 @@ com.flowmate = {
  				return; 
  			}
 
- 			this.createShapeByType(type, shape);
+ 			// this.createShapeByType(type, shape);
+ 			// Run overided function on each file
+ 			this.createGroup(shape);
  		}
-	},
+	}/*,
 
 	createShapeByType : function (type, label) {
-		this.util.debug ("createShapeByType : " + type);
+		//log ("createShapeByType : " + type);
 
-		var wrapperShape, group;
+		var wrapperShape, group;		
 
 		switch (type) {
 			case "Process":
@@ -85,9 +105,11 @@ com.flowmate = {
 
 		var stepName 		= "Label",
 			labelString 	= label.stringValue(),
-			newGroup 		= this.util.addGroup(stepName + " - " + labelString),
-			bgShape 		= this.util.addShape(stepName + " - " + labelString + "- bgshape", newGroup),
+			newGroup 		= this.util.addGroup(stepName + "_" + labelString),
+			bgShape 		= this.util.addShape("bg_" + labelString, newGroup),
 			opt 			= this.options.label;
+
+		label.setName ("label_" + labelString); 
 
 		this.util.setFontStyle (label, {
 			size : opt.fontSize,
@@ -120,15 +142,17 @@ com.flowmate = {
 
 		//Reset group size
 		newGroup.resizeRoot(0);
-	},
+	}/*,
 
 	createReferenceShape : function (label) {
 		this.util.debug ("createDecisionShape");
 
 		var stepName 		= "Refernce",
 			labelString 	= label.stringValue(),
-			newGroup 		= this.util.addGroup(stepName + " - " + labelString),
+			newGroup 		= this.util.addGroup(stepName + "_" + labelString),
 			opt 			= this.options.reference;
+
+		label.setName ("label_" + labelString);
 
 		//Set label style
 		this.util.setFontStyle (label, {
@@ -144,7 +168,7 @@ com.flowmate = {
 			height 		: opt.shapeSize
 		};
 		
-		var shapeName 	= stepName + "-" + labelString + "- bgshape",
+		var shapeName 	= "bg_" + labelString,
 			shapeGroup 	= this.util.addOval(shapeName, newGroup, shapeOption);
 
 		//Set shape position
@@ -169,7 +193,7 @@ com.flowmate = {
 
 		var stepName 		= "Decision",
 			labelString 	= label.stringValue(),
-			newGroup 		= this.util.addGroup(stepName + " - " + labelString),
+			newGroup 		= this.util.addGroup(stepName + "_" + labelString),
 			bgShape 		= this.drawDecisionShape(label);
 
 		this.util.setFontStyle(label, {
@@ -269,13 +293,13 @@ com.flowmate = {
 		var stepName 		= "Process",
 			labelString 	= label.stringValue(),
 			opt 			= this.options.process,
-			newGroup 		= this.util.addGroup(stepName + ":" + labelString),
-			bgShape 		= this.util.addShape("bgshape:" + labelString, newGroup);
+			newGroup 		= this.util.addGroup(stepName + "_" + labelString),
+			bgShape 		= this.util.addShape("bg_" + labelString, newGroup);
 
 		this.util.debug ("newGroup :" + newGroup);
 
 		//Set Layer name of label and styles
-		label.setName ("label: " + labelString);
+		label.setName ("label_" + labelString);
 
 		this.util.setFontStyle(label);
 		
@@ -310,5 +334,5 @@ com.flowmate = {
 		});
 
 		newGroup.resizeRoot(0);
-	},
+	},*/
 };
