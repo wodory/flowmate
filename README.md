@@ -2,6 +2,11 @@
 
 Don't draw a shape and type text. Write your story, process or task first, then make shapes with the text automatically. It's just speedy and super simple. 
 
+## Current version 
+### 0.1.2
+- Connector Auto Upate
+- Fix the location of Group and shape is not matched. 
+
 ## Install Plugin 
 
 ### Sketch Toolbox
@@ -42,7 +47,6 @@ Modify `lib/options.js` if you wanna use your own options like shape/border colo
 - [ ] Group and connect to/from group
 - [ ] Smart align - to align Decision and other symbol
 - [ ] Smart connect - really hard :-(
-- [ ] Redraw connect - Redraw connectors if the shapes are moved
 - [ ] Option dialog - Change shape/connector/border color and so on... 
 
 ## Special Thanks 
