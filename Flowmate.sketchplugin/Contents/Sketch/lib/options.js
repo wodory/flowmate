@@ -6,9 +6,9 @@ com.flowmate.options = {
 	dropShadow : false,
 	align : 2,
 	process : {
-		labelWidth : 180, // 100
+		labelWidth : 100, // 100
 		labelHeight : 16,
-		shapeWidth : 200, //120
+		shapeWidth : 120, //120
 		shapeHeight : 55,
 		borderColor : "#00000",
 		borderThickness : 2,
