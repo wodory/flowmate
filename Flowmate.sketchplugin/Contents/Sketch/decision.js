@@ -5,46 +5,47 @@
 com.flowmate.extend ({
 	createGroup : function (label) {
 		log ("createGroup _ Decision");
-		var stepName 		= "Decision",
-			labelString 	= label.stringValue(),
-			newGroup 		= this.util.addGroup(stepName + "_" + labelString),
-			bgShape 		= this.drawDecisionShape(label);
+		var stepName 	= "Decision",
+			labelName 	= label.name,
+			opt 		= this.options.decision,
+			parent 		= label.container,
+			newGroup 	= this.addGroup(stepName + "_" + labelName, parent),
+			bgShape 	= this.drawDecisionShape(label, newGroup);
 
-		this.util.setFontStyle(label, {
-			size: this.options.decision.fontSizeOfLabel
+		label.name = "label_" + labelName;
+
+		log (label.container)
+
+		this.setFontStyle(label, {
+			size: opt.fontSizeOfLabel
 		});
 
-		this.util.setShapeColor({
-			target : bgShape, 
-			hex : this.options.decision.shapeColor,
+		this.setShapeColor({
+			target : bgShape,
+			hex : opt.shapeColor,
 		});
 
-		this.util.moveLayer({
-			target : bgShape, 
+		this.addLayerToGroup({
+			target : bgShape,
 			newGroup : newGroup
 		});
 
 		//set Position of Label
-		this.util.setPosition(label, {
+		this.setPosition(label, {
 			type : "topleft",
-			x : bgShape.frame().midX() - label.frame().width() - 20,
-			y : bgShape.frame().minY()
+			x : bgShape.sketchObject.frame().midX() - label.sketchObject.frame().width() - 20,
+			y : bgShape.sketchObject.frame().minY()
 		});
 
-		this.util.moveLayer({
-			target : label, 
+		this.addLayerToGroup({
+			target : label,
 			newGroup : newGroup
 		});
 
 		//Add X, Y Directions
 		this.addDirectionToDecision(newGroup, label, bgShape);
 
-		//newGroup.resizeRoot(0);
-		if(newGroup.resizeRoot) { 
-			newGroup.resizeRoot(true);
-		} else if(newGroup.resizeToFitChildrenWithOption) {
-			newGroup.resizeToFitChildrenWithOption(true);
-		}
+		newGroup.adjustToFit();
 	},
 
 	isDecision : function (shape) {
@@ -52,66 +53,79 @@ com.flowmate.extend ({
 	},
 
 	drawDecisionShape : function (label) {
-		var labelFrame 	= label.frame(), 
+		log ('drawDecisionShape')
+
+
+		var oLabel 		= label.sketchObject,
+			labelFrame 	= oLabel.frame(),
 			labelWidth 	= labelFrame.width(),
 			labelHeight = labelFrame.height(),
 			nSize 		= this.options.decision.shapeSize;
 			shapePath 	= NSBezierPath.bezierPath(),
 
-		[shapePath moveToPoint:CGPointMake([labelFrame midX], [labelFrame midY] - nSize)];
-		[shapePath lineToPoint:CGPointMake([labelFrame midX] + nSize, [labelFrame midY])];
-		[shapePath lineToPoint:CGPointMake([labelFrame midX], [labelFrame midY] + nSize)];
-		[shapePath lineToPoint:CGPointMake([labelFrame midX] - nSize, [labelFrame midY])];
+		shapePath.moveToPoint(NSMakePoint(labelFrame.midX(), labelFrame.midY() - nSize));
+		shapePath.lineToPoint(NSMakePoint(labelFrame.midX() + nSize, labelFrame.midY()));
+		shapePath.lineToPoint(NSMakePoint(labelFrame.midX(), labelFrame.midY() + nSize));
+		shapePath.lineToPoint(NSMakePoint(labelFrame.midX() - nSize, labelFrame.midY()));
+
 		shapePath.closePath();
 
-		return MSShapeGroup.shapeWithBezierPath(shapePath);
-	},
-	
-	addDirectionToDecision : function (newGroup, label, shape) {
-		this.util.debug ("addDirectionToDecision");	
+		var shape = MSShapeGroup.shapeWithBezierPath(shapePath);
+		//this.context.document.currentPage().addLayer(shape);
 
-		var labelFrame = label.frame(),
-			shapeFrame = shape.frame();
+		log (shape)
+
+		return this.doc.wrapObject(shape);
+	},
+
+	addDirectionToDecision : function (newGroup, label, shape) {
+		log ("addDirectionToDecision");
+
+		var labelFrame = label.sketchObject.frame(),
+			shapeFrame = shape.sketchObject.frame();
 
 		// create Y & N
-		var textYes 			= this.util.addText("Condition-Yes", newGroup),
-			textNo 				= this.util.addText("Condition-No", newGroup),
-			textYesFrame 		= textYes.frame(),
-			textNoFrame 		= textNo.frame(),
+		var textYes 			= this.addText("Condition-Yes", newGroup),
+			textNo 				= this.addText("Condition-No", newGroup),
+			textYesFrame 		= textYes.sketchObject.frame(),
+			textNoFrame 		= textNo.sketchObject.frame(),
+			shapeFrame 			= shape.sketchObject.frame(),
 			conditionFontStyle 	= {
 				name 	: this.options.decision.fontForCondition,
 				size 	: this.options.decision.fontSizeOfCondition,
 				color 	: this.options.decision.fontColorForCondition
 			};
 
-		textYes.setStringValue ("Y");
-		textNo.setStringValue ("N");
+		textYes.sketchObject.setStringValue ("Y");
+		textNo.sketchObject.setStringValue ("N");
 
-		this.util.setFontStyle(textYes, conditionFontStyle);
-		this.util.setFontStyle(textNo, conditionFontStyle);
+		this.setFontStyle(textYes, conditionFontStyle);
+		this.setFontStyle(textNo, conditionFontStyle);
 
-		this.util.setPosition(textYes, {
+		this.setPosition(textYes, {
 			type 	: "middle",
-			x 		: shape.frame().maxX() - 11,
-			y 		: shape.frame().midY()
+			x 		: shapeFrame.maxX() - 11,
+			y 		: shapeFrame.midY()
 		});
 
-		this.util.setPosition(textNo, {
+		this.setPosition(textNo, {
 			type 	: "middle",
-			x 		: shape.frame().midX(),
-			y 		: shape.frame().maxY() - 11
+			x 		: shapeFrame.midX(),
+			y 		: shapeFrame.maxY() - 11
 		})
 
 		// Relocate the label
-		this.util.setPosition(label, {
+		this.setPosition(label, {
 			type 	: "topleft",
-			x 		: shape.frame().midX() - label.frame().width() - 20,
-			y 		: shape.frame().minY()
+			x 		: shapeFrame.midX() - labelFrame.width() - 20,
+			y 		: shapeFrame.minY()
 		})
 	}
 });
 
 var onRun = function (context) {
+	log ('onRun')
+
 	com.flowmate.init(context);
 	com.flowmate.createSymbol("Decision");
 }
@@ -169,7 +183,7 @@ function decisionShape(label)
 
 	// set label style
 	label.setFontPostscriptName(labelFontName);
-	label.textColor = MSColor.colorWithSVGString(labelFontColor);  
+	label.textColor = MSColor.colorWithSVGString(labelFontColor);
 	label.setFontSize (decisionLabelFontSize);
 
 	// set shape padding

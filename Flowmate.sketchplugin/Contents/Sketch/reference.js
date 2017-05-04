@@ -4,51 +4,44 @@
 
 com.flowmate.extend ({
 	createGroup: function (label) {
-		log ("createGroup _ Decision");
+		log ("createGroup _ Reference");
 
 		var stepName 		= "Refernce",
-			labelString 	= label.stringValue(),
-			newGroup 		= this.util.addGroup(stepName + "_" + labelString),
-			opt 			= this.options.reference;
+			labelName 		= label.name,
+			parent 			= label.container,
+			newGroup 		= this.addGroup(stepName + "_" + labelName, parent),
+			opt 			= this.options.reference,
+			bgShape 		= this.addOval ("bg_" + labelName, newGroup)
 
-		label.setName ("label_" + labelString);
+		label.name = "label_" + labelName;
+
+		this.addLayerToGroup({
+			target 		: bgShape,
+			newGroup 	: newGroup
+		});
 
 		//Set label style
-		this.util.setFontStyle (label, {
-			name : opt.fontName, 
+		this.setFontStyle (label, {
+			name : opt.fontName,
 			size : opt.fontSize,
 			color : opt.fontColor
 		});
 
-		//Create background shape
-		var shapeOption = {
-			color 		: opt.shapeColor,
-			width 		: opt.shapeSize,
-			height 		: opt.shapeSize
-		};
-		
-		var shapeName 	= "bg_" + labelString,
-			shapeGroup 	= this.util.addOval(shapeName, newGroup, shapeOption);
-
 		//Set shape position
-		this.util.setPosition (shapeGroup, {
-			type : "middle", 
-			x : label.frame().midX(),
-			y : label.frame().midY()
+		this.setPosition (bgShape, {
+			type : "middle",
+			x : label.sketchObject.frame().midX(),
+			y : label.sketchObject.frame().midY()
 		});
 
 		//Move label layer into the group
-		this.util.moveLayer({
-			target : label, 
+		this.addLayerToGroup({
+			target : label,
 			newGroup : newGroup
 		});
 
-		//Reset group size - newGroup.resizeRoot(0);
-		if(newGroup.resizeRoot) { 
-			newGroup.resizeRoot(true);
-		} else if(newGroup.resizeToFitChildrenWithOption) {
-			newGroup.resizeToFitChildrenWithOption(true);
-		}
+		//newGroup.resizeToFitChildrenWithOption(true);
+		newGroup.adjustToFit();
 	}
 });
 

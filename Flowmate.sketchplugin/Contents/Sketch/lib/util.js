@@ -1,10 +1,22 @@
-com.flowmate.util = {
+com.flowmate.extend({
 	options : com.flowmate.options,
 	// root: com.flowmate,
 
 	addLayer : function (name, type, parent) {
-		var parent = parent ? parent : com.flowmate.current,
-			layer = parent.addLayerOfType(type);
+		log ('addLayer')
+		var parent = parent ? parent : com.flowmate.page;
+		var layer;
+
+		if (type == "text")
+			layer = parent.newText();
+		else if (type == "rectangle") {
+			layer = parent.newShape({frame: new sketch.Rectangle(0, 0, 200, 200)})
+		}
+		else if (type == "group") {
+			layer = parent.newGroup();
+		}
+
+		parent.addLayers(layer);
 
 		if (name) {
 			layer.setName(name);
@@ -14,71 +26,85 @@ com.flowmate.util = {
 	},
 
 	addShape : function (name, parent) {
-		var layer = this.addLayer(name, 'rectangle', parent);
-		
-		if (this.isShape(layer)){
-			return layer;
-		}
-		return this.shapeWithPath(layer);
+		log ('addShape')
+		return parent.newShape({
+			name : name,
+			frame: new sketch.Rectangle(
+				0, 0, this.options.process.shapeWidth, this.options.process.shapeHeight
+			)
+		});
 	},
 
 	addOval: function(name, parent, opt){
+		log ('addOval')
 		//bg,w,h,x,y
 		//
-		var parent = parent ? parent : com.flowmate.current;
+		//var parent = parent ? parent : com.flowmate.current;
 
 		var opt = opt || {},
-			bg 	= opt.color || "#000000",
-			w 	= opt.width || 400,
-			h 	= opt.height || 400,
-			y 	= opt.y || 0,
-			x 	= opt.x || 0;
+			bg 	= opt.color 	|| this.options.reference.shapeColor,
+			w 	= opt.width 	|| this.options.reference.shapeSize,
+			h 	= opt.height 	|| this.options.reference.shapeSize,
+			y 	= opt.y 		|| 0,
+			x 	= opt.x 		|| 0;
 
 		var ovalShape = MSOvalShape.alloc().init();
-		ovalShape.frame = MSRect.rectWithRect(NSMakeRect(x,y,w,h));
+		ovalShape.setRect(CGRectMake(x, y, w, h));
 
-		//var shapeGroup=ovalShape.embedInShapeGroup();
-		
-		var shapeGroup = this.shapeWithPath(ovalShape),
-			fill = shapeGroup.style().fills().addNewStylePart();
-		
-		fill.color = MSColor.colorWithSVGString(bg);
-		
-		parent.addLayers([shapeGroup]);
+		var shapeGroup 	= MSShapeGroup.shapeWithPath(ovalShape),
+			fill 		= shapeGroup.style().addStylePartOfType(0);
+
+		fill.color = MSImmutableColor.colorWithSVGString(bg);
 
 		if (name) {
 			shapeGroup.setName(name);
 		}
 
-		return shapeGroup;
+		return this.doc.wrapObject(shapeGroup);
 	},
 
 	addGroup : function (name, parent) {
-		return this.addLayer(name, 'group', parent);
+		log ('addGroup')
+		//return this.addLayer(name, 'group', parent);
+		return parent.newGroup ({
+			name : name,
+		})
 	},
 
 	addText : function (name, parent) {
-		return this.addLayer(name, 'text', parent);
+		log ('addGroup')
+		//return this.addLayer(name, 'text', parent);
+		return parent.newText({
+			name : name
+		})
 	},
 
 	removeLayer : function (group, layer) {
-		this.debug ("removeLayer");
-		
 		if (group) {
-			group.removeLayer(layer);
+			group.sketchObject.removeLayer(layer.sketchObject);
 		}
 	},
 
-	moveLayer : function (opt) {
-		this.debug ("moveLayer");
-		var layer = opt.target,
-			newGroup = opt.newGroup,
-			oldGroup = layer.parentGroup();
+	addLayerToGroup : function (opt) {
+		log ("addLayerToGroup");
 
-		layer.setIsSelected(false);
+		// var layer = opt.target,
+		// 	newGroup = opt.newGroup,
+		// 	oldGroup = layer.parentGroup();
+		var layer 		= opt.target,
+			newGroup 	= opt.newGroup,
+			oldGroup;
 
-		if (this.isGroup(newGroup)) {
-			newGroup.addLayers ([layer]);
+		if (layer.sketchObject.parentGroup()) {
+			oldGroup = layer.container;
+		}
+
+		if (newGroup.isGroup) {
+			newGroup.sketchObject.addLayer(layer.sketchObject);
+		}
+
+		//Sometimes just add shape that don't have parent.
+		if (oldGroup) {
 			this.removeLayer(oldGroup, layer);
 		}
 	},
@@ -126,45 +152,47 @@ com.flowmate.util = {
 	},
 
 	setSize : function (layer, opt) {
-		//layer, width, height, absolute
-		this.debug(opt.layer);
+		log ('setSize')
+
+		//layer.frame.height is not working for setter sometimes.
+
+		var oLayer = layer.sketchObject;
 
 		if(opt.absolute){
-			layer.absoluteRect().setWidth(opt.width);
-			layer.absoluteRect().setHeight(opt.height);
+			oLayer.absoluteRect().setWidth(opt.width);
+			oLayer.absoluteRect().setHeight(opt.height);
 		}
 		else{
-			layer.frame().setWidth(opt.width);
-			layer.frame().setHeight(opt.height);
+			oLayer.frame().setWidth(opt.width);
+			oLayer.frame().setHeight(opt.height);
 		}
 
 		return layer;
 	},
 
 	setPosition : function (layer, opt) {
-		//layer, x, y, absolute
-		//
-		// var layer = opt.target;
+		log ('setPosition');
 
-		this.debug (layer.absoluteRect().setMidX)
+		// Use Old API to use setMidX and setMidY
+		var oLayer = layer.sketchObject;
 
 		if (opt.type == "topleft") {
 			if(opt.absolute){
-				layer.absoluteRect().setX(opt.x);
-				layer.absoluteRect().setY(opt.y);
+				oLayer.absoluteRect().setX(200);
+				oLayer.absoluteRect().setY(200);
 			}
 			else{
-				layer.frame().setX(opt.x);
-				layer.frame().setY(opt.y);
+				oLayer.frame().setX(opt.x);
+				oLayer.frame().setY(opt.y);
 			}
 		} else if (opt.type == "middle") {
 			if(opt.absolute){
-				layer.absoluteRect().setMidX(opt.x);
-				layer.absoluteRect().setMidY(opt.y);
+				oLayer.absoluteRect().setMidX(opt.x);
+				oLayer.absoluteRect().setMidY(opt.y);
 			}
 			else{
-				layer.frame().setMidX(opt.x);
-				layer.frame().setMidY(opt.y);
+				oLayer.frame().setMidX(opt.x);
+				oLayer.frame().setMidY(opt.y);
 			}
 		}
 
@@ -172,75 +200,78 @@ com.flowmate.util = {
 	},
 
 	setFontStyle :function (label, opt) {
-		this.debug("setFontStyle");
+		log ('setFontStyle')
+
 		var opt 	= opt || {},
-			name 	= (opt.name) ? opt.name : this.options.fontName, 
+			name 	= (opt.name) ? opt.name : this.options.fontName,
 			size 	= (opt.size) ? opt.size : this.options.fontSize,
-			color 	= (opt.color) ? MSColor.colorWithSVGString(opt.color] :  MSColor.colorWithSVGString(this.options.fontColor],
+			color 	= (opt.color) ? MSImmutableColor.colorWithSVGString(opt.color] :  MSImmutableColor.colorWithSVGString(this.options.fontColor],
 			align 	= (opt.align) ? (opt.align) : this.options.align;
 
-		var originalFrame = label.frame();
+		//Use Old API. Text.font API is not working
+		var oLabel = label.sketchObject;
 
-		label.setFontPostscriptName (name);
-		label.setFontSize (size);
-		label.setTextColor (color);
-		label.setTextAlignment(align); // center
+		oLabel.setFontPostscriptName (name);
+		oLabel.setFontSize (size);
+		oLabel.setTextColor (color);
+		oLabel.setTextAlignment(align); // center
 	},
 
 	setBorder : function (layer, opt) {
-		if (this.isShape(layer)) {
-			var border 			= layer.style().borders().addNewStylePart();
-			border.color 		= MSColor.colorWithSVGString(opt.color);
-			border.thickness 	= opt.thickness;
+		log ('setBorder')
+
+		if (layer.isShape) {
+			var style 		= layer.style.sketchObject.stylePartsOfType(1)[0];
+			style.color 	= MSImmutableColor.colorWithSVGString(opt.color);
+			style.thickness = opt.thickness;
 		}
 	},
 
 	setShapeColor : function (opt) {
+		log ('setShapeColor')
 		//layer, hex, alpha
 		var layer = opt.target;
 
-		if(this.isShape(layer)) {
+		if(layer.isShape) {
 
-			var	color = MSColor.alloc().init()),			
-				rgb = this.hexToRgb(opt.hex),
-				red = rgb.r / 255,
-				green = rgb.g / 255,
-				blue = rgb.b / 255;
-
-			this.debug (rgb);
+			var fills 		= layer.style.sketchObject.stylePartsOfType(0),
+				fill;
 
 			var alpha = (opt.alpha) ? opt.alpha : 1;
-			//alphe = (alpha && !isNaN(alpha) && (alpha <= 1 || alpha >= 0)) ? alpha : 1;
 
-			color.setRed(red);
-			color.setGreen(green);
-			color.setBlue(blue);
-			color.setAlpha(alpha);
-	
-			var fills = layer.style().fills();
 			if (fills.count() <= 0) {
-				fills.addNewStylePart();
+				fill = layer.style.sketchObject.addStylePartOfType(0);
+			} else {
+				fill = fills.firstObject();
 			}
 
-			layer.style().fill().setFillType(0);
-			layer.style().fill().setColor(color);
+			fill.setFillType(0);
+			fill.setColor(MSImmutableColor.colorWithSVGString(opt.color));
 		}
 	},
 
 	setGradient : function (layer, opt) {
-		if (this.isShape(layer)) {
-			var fills = layer.style().fills();
+		log ('setGradient')
+
+		if (layer.isShape) {
+			var fills 		= layer.style.sketchObject.stylePartsOfType(0),
+				fill;
+
+			//if there are one more fills, just use first fill
 			if (fills.count() <= 0) {
-				fills.addNewStylePart();
+				fill = layer.style.sketchObject.addStylePartOfType[0];
+			} else {
+				fill = fills[0];
 			}
 
-			layer.style().fill().setFillType(1);
-			var gradient 	= layer.style().fill().gradient(),
+			fill.setFillType(1);
+
+			var gradient 	= fill.gradient(),
 				startColor 	= opt.startColor,
 				endColor 	= opt.endColor;
 
-			[gradient setColor:[MSColor colorWithSVGString:startColor] atIndex:0];
-			[gradient setColor:[MSColor colorWithSVGString:endColor] atIndex:1];
+			gradient.setColor_atIndex_(MSImmutableColor.colorWithSVGString(startColor), 0);
+			gradient.setColor_atIndex_(MSImmutableColor.colorWithSVGString(endColor), 1);
 		}
 	},
 
@@ -250,29 +281,19 @@ com.flowmate.util = {
 		if (this.selection.count() > 0) {
 			return true;
 		} else {
-			this.showToast ("Must Select Text Layer to create flochart node.");
+			this.message ("Must Select Text Layer to create flochart node.");
 		}
 	},
 
-	showToast : function (message) {
-		this.runCommand(['-c', 'afplay /System/Library/Sounds/Basso.aiff']);
-		[doc showMessage: message];
+	message: function (message) {
+		log ('message')
+		// this.runCommand(['-c', 'afplay /System/Library/Sounds/Basso.aiff']);
+		// [doc showMessage: message];
+
+		if (message) {
+			sketch.message (message);
+		}
 	},
-
-	runCommand: function(cmd,path){
-        var task = [[NSTask alloc] init];    
-        task.setLaunchPath("/bin/bash");
-        task.setArguments(cmd);
-        task.launch();
-    },
-
-	debug : function(msg){
-        if(this.isModeDebug()) log(msg);
-    },
-
-    isModeDebug : function() {
-    	return (com.flowmate.options.mode == "debug");
-    },
 
 	hexToRgb : function (hex) {
 		var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
@@ -281,45 +302,5 @@ com.flowmate.util = {
 			g: parseInt(result[2], 16),
 			b: parseInt(result[3], 16)
 		} : null;
-	},
-
-    shapeWithPath : function (shape) {
-		// if ( shape.embedInShapeGroup != undefined ) {
-		// 	log  ("a " + shape.embedInShapeGroup)
-		// 	return shape.embedInShapeGroup()
-		// } else if ( MSShapeGroup.shapeWithPath != undefined ) {
-		log ("b")
-		return MSShapeGroup.shapeWithPath(shape)
-		// }
-     },
-
-	dump : function (obj) {
-	    log("#####################################################################################");
-	    log("## Dumping object " + obj );
-	    log("## obj class is: " + [obj className]);
-	    log("#####################################################################################");
-
-	    log("############################# obj.properties:");
-	    log([obj class].mocha().properties());
-	    log("############################# obj.propertiesWithAncestors:");
-	    log([obj class].mocha().propertiesWithAncestors());
-
-	    log("############################# obj.classMethods:");
-	    log([obj class].mocha().classMethods());
-	    log("############################# obj.classMethodsWithAncestors:");
-	    log([obj class].mocha().classMethodsWithAncestors());
-
-	    log("############################# obj.instanceMethods:");
-	    log([obj class].mocha().instanceMethods());
-	    log("############################# obj.instanceMethodsWithAncestors:");
-	    log([obj class].mocha().instanceMethodsWithAncestors());
-
-	    log("############################# obj.protocols:");
-	    log([obj class].mocha().protocols())
-	    log("############################# obj.protocolsWithAncestors:");
-	    log([obj class].mocha().protocolsWithAncestors());
-
-	    log("############################# obj.treeAsDictionary():");
-	    log(obj.treeAsDictionary());
 	}
-}
+})

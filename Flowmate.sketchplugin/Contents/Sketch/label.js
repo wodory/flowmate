@@ -6,45 +6,50 @@ com.flowmate.extend ({
 	createGroup: function (label) {
 		log ("createGroup _ Label");
 
-		var stepName 		= "Label",
-			labelString 	= label.stringValue(),
-			newGroup 		= this.util.addGroup(stepName + "_" + labelString),
-			bgShape 		= this.util.addShape("bg_" + labelString, newGroup),
-			opt 			= this.options.label;
+		var stepName 	= "Label",
+			labelName 	= label.name,
+			parent		= label.container,
+			newGroup 	= this.addGroup(stepName + "_" + labelName, parent),
+			bgShape 	= this.addShape("bg_" + labelName, newGroup),
+			opt 		= this.options.label;
 
-		label.setName ("label_" + labelString); 
+		label.name = "label_" + labelName;
 
-		this.util.setFontStyle (label, {
+		this.setFontStyle (label, {
 			size : opt.fontSize,
 			color : opt.fontColor
 		});
 
 		//Set BGShape size and styles
-		this.util.setSize(bgShape, {
-			width 	: label.frame().width() + 10, 
-			height 	: label.frame().height() + 10
+		this.setSize(bgShape, {
+			width 	: label.frame.width + 10,
+			height 	: label.frame.height + 10
 		});
+
+		log (label.frame.height + 10);
+		log (bgShape)
+		log (bgShape.frame.height);
 
 		//Set shape color
-		this.util.setShapeColor({
-			target : bgShape, 
-			hex : opt.shapeColor,
-		});
-		
-		//set Position of Shape
-		this.util.setPosition(bgShape, {
-			type 	: "middle",
-			x 		: label.frame().midX(),
-			y 		: label.frame().midY()
+		this.setShapeColor({
+			target : bgShape,
+			color : opt.shapeColor,
 		});
 
-		this.util.moveLayer({
+		//set Position of Shape
+		this.setPosition(bgShape, {
+			type 	: "middle",
+			x 		: label.sketchObject.frame().midX(),
+			y 		: label.sketchObject.frame().midY()
+		});
+
+		this.addLayerToGroup({
 			target : label,
 			newGroup : newGroup
 		});
 
 		//Reset group size
-		newGroup.resizeRoot(0);
+		newGroup.adjustToFit();
 	}
 });
 
