@@ -277,7 +277,6 @@ com.flowmate.extend({
 
 	didSelect : function () {
 		log ("select")
-		log (this.selection)
 		if (this.selection.count() > 0) {
 			return true;
 		} else {

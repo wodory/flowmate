@@ -22,7 +22,7 @@ com.flowmate.extend ({
 
 		this.setShapeColor({
 			target : bgShape,
-			hex : opt.shapeColor,
+			color : opt.shapeColor,
 		});
 
 		this.addLayerToGroup({
@@ -71,9 +71,6 @@ com.flowmate.extend ({
 		shapePath.closePath();
 
 		var shape = MSShapeGroup.shapeWithBezierPath(shapePath);
-		//this.context.document.currentPage().addLayer(shape);
-
-		log (shape)
 
 		return this.doc.wrapObject(shape);
 	},

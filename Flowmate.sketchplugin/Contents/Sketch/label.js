@@ -26,10 +26,6 @@ com.flowmate.extend ({
 			height 	: label.frame.height + 10
 		});
 
-		log (label.frame.height + 10);
-		log (bgShape)
-		log (bgShape.frame.height);
-
 		//Set shape color
 		this.setShapeColor({
 			target : bgShape,

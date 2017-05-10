@@ -42,9 +42,6 @@ com.flowmate.extend ({
 				firstShape	= this.page.sketchObject.layerWithID(firstId),
 				secondShape = this.page.sketchObject.layerWithID(secondId);
 
-			log (firstShape);
-			log (secondShape);
-
 			// if firstShape and secondShape is exist, redraw the connector.
 			// else, it mean firstShape and/or secondShape is deleted, the connector will be deleted.
 			if (firstShape && secondShape) {
