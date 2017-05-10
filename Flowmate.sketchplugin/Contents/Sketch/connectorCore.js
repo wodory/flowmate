@@ -43,8 +43,10 @@ com.flowmate.extend({
 
 		log (firstStep.name());
 		if (this.isDecision(firstStep)) {
+			log (firstStep.layers())
+			log (firstStep.layers().firstObject)
 
-			var decisionShape = firstStep.layers().array()[0];
+			var decisionShape = firstStep.layers().firstObject();
 			var decisionShapeFrame = decisionShape.frame();
 
 			firstStepBottom = firstStepFrame.minY() + decisionShapeFrame.maxY() - connectionsGroupY;
