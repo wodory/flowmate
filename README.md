@@ -15,7 +15,7 @@ Don't draw a shape and type text. Write your story, process or task first, then 
 
 ### Sketch Toolbox
 
-1. Install [Sektch Toolbox](http://sketchtoolbox.com/)
+1. Install [Sketch Toolbox](http://sketchtoolbox.com/)
 2. Search `Flowmate`
 3. Click `Install`
 
